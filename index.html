@@ -3,76 +3,98 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>多語單字卡系統</title>
+    <title>Flash Cards (EN / ZH / TH)</title>
+    <!-- 讓手機正確縮放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body class="bg-light py-4">
-    <div class="container">
+    <div class="container-fluid container-md">
         <!-- 標題列 -->
-        <header class="mb-4">
-            <h1 class="h3 mb-1">多語單字卡（英 / 中 / 泰）</h1>
-            <p class="text-muted mb-0">
-                純前端版：Bootstrap 5 + JavaScript + SpeechSynthesis 語音發音
+        <header class="mb-3">
+            <h1 class="h4 mb-3 text-center text-md-start">Flash Cards (EN / ZH / TH)</h1>
+            <p class="text-muted mb-0 text-left mx-4 text-md-start">
+                Just for you and me.
+            </p>
+            <p class="text-muted mb-0 text-left mx-4 text-md-start">
+                I hope that next time we meet, we can chat in English naturally. 😊
             </p>
         </header>
 
-        <!-- 單字清單（收折區塊） -->
-        <div class="accordion mb-4" id="wordListAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingList">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseList" aria-expanded="false" aria-controls="collapseList">
-                        單字清單
-                        <span class="badge bg-primary ms-2" id="cardCount">0</span>
-                    </button>
-                </h2>
-                <div id="collapseList" class="accordion-collapse collapse" aria-labelledby="headingList"
-                    data-bs-parent="#wordListAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-group list-group-flush" id="wordList"></ul>
-                    </div>
-                </div>
+        <!-- 工具列：單字清單按鈕（觸發側邊 Offcanvas） -->
+        <div class="d-flex justify-content-between align-items-center mb-3 mx-3">
+            <div class="small text-muted">
+                Flashcards Num：
+                <span class="badge bg-primary" id="cardCount">0</span>
+            </div>
+            <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#wordListOffcanvas" aria-controls="wordListOffcanvas">
+                📚 List
+            </button>
+        </div>
+
+        <!-- 側邊單字清單 Offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="wordListOffcanvas"
+            aria-labelledby="wordListOffcanvasLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="wordListOffcanvasLabel">Flash Card List</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <ul class="list-group list-group-flush" id="wordList"></ul>
             </div>
         </div>
 
         <!-- 單字卡主區塊 -->
         <div class="card shadow-sm" id="cardContainer" style="display: none;">
-            <!-- 標題與切換按鈕 -->
+            <!-- 標題與切換按鈕（桌機版在 header，手機版在 body 上方） -->
             <div class="card-header d-flex justify-content-between align-items-center">
-                <div>
-                    <span class="badge bg-secondary me-2" id="cardIndexBadge">#1 / 1</span>
+                <div class="text-truncate">
+                    <span class="badge bg-primary me-2" id="cardIndexBadge">#1 / 1</span>
                     <strong id="wordEnTitle">word</strong>
                 </div>
-                <div class="btn-group" role="group" aria-label="Card navigation">
+                <!-- 桌機 / 平板：右上角小按鈕 -->
+                <div class="btn-group d-none d-md-flex" role="group" aria-label="Card navigation desktop">
                     <button type="button" class="btn btn-outline-secondary btn-sm" id="prevBtn">
-                        ◀ 上一張
+                        ◀ Previous
                     </button>
                     <button type="button" class="btn btn-outline-secondary btn-sm" id="nextBtn">
-                        下一張 ▶
+                        NEXT ▶
                     </button>
                 </div>
             </div>
 
             <!-- 內容區：英 / 中 / 泰 -->
             <div class="card-body">
+                <!-- 手機版：把上一張 / 下一張移到 card-body 上方 -->
+                <div class="mb-3 d-flex d-md-none gap-2">
+                    <button type="button" class="btn btn-outline-secondary w-50" id="prevBtnMobile">
+                        ◀ Previous
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary w-50" id="nextBtnMobile">
+                        NEXT ▶
+                    </button>
+                </div>
+
                 <div class="row g-3">
                     <!-- 英文區塊 -->
-                    <div class="col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="border rounded-3 p-3 h-100 bg-white">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                                 <h5 class="mb-0">English</h5>
                                 <div class="btn-group btn-group-sm" role="group">
                                     <button type="button" class="btn btn-outline-primary" id="speakEnWordBtn">
-                                        🔊 單字
+                                        🔊 Word
                                     </button>
                                     <button type="button" class="btn btn-outline-primary" id="speakEnSentenceBtn">
-                                        🔊 句子
+                                        🔊 Sentence
                                     </button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr class="my-2" />
                             <p class="mb-1">
                                 <span class="fw-bold">Word：</span>
                                 <span id="wordEn"></span>
@@ -85,9 +107,9 @@
                     </div>
 
                     <!-- 中文區塊 -->
-                    <div class="col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="border rounded-3 p-3 h-100 bg-white">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                                 <h5 class="mb-0">中文</h5>
                                 <div class="btn-group btn-group-sm" role="group">
                                     <button type="button" class="btn btn-outline-success" id="speakZhWordBtn">
@@ -98,7 +120,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr class="my-2" />
                             <p class="mb-1">
                                 <span class="fw-bold">單字：</span>
                                 <span id="wordZh"></span>
@@ -119,9 +141,9 @@
                     </div>
 
                     <!-- 泰文區塊 -->
-                    <div class="col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="border rounded-3 p-3 h-100 bg-white">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                                 <h5 class="mb-0">ภาษาไทย</h5>
                                 <div class="btn-group btn-group-sm" role="group">
                                     <button type="button" class="btn btn-outline-warning" id="speakThWordBtn">
@@ -132,7 +154,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr class="my-2" />
                             <p class="mb-1">
                                 <span class="fw-bold">คำศัพท์：</span>
                                 <span id="wordTh"></span>
@@ -237,6 +259,7 @@
         const noDataAlert = document.getElementById('noDataAlert');
         const cardCount = document.getElementById('cardCount');
         const wordList = document.getElementById('wordList');
+        const wordListOffcanvasEl = document.getElementById('wordListOffcanvas');
 
         const cardIndexBadge = document.getElementById('cardIndexBadge');
         const wordEnTitle = document.getElementById('wordEnTitle');
@@ -255,7 +278,11 @@
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
 
-        // 六個發音按鈕
+        // 手機版導航按鈕
+        const prevBtnMobile = document.getElementById('prevBtnMobile');
+        const nextBtnMobile = document.getElementById('nextBtnMobile');
+
+        // 發音按鈕
         const speakEnWordBtn = document.getElementById('speakEnWordBtn');
         const speakEnSentenceBtn = document.getElementById('speakEnSentenceBtn');
         const speakZhWordBtn = document.getElementById('speakZhWordBtn');
@@ -297,7 +324,7 @@
             updateWordListActive();
         }
 
-        // === 5. 建立清單項目（收折清單） ===
+        // === 5. 建立清單項目（側邊清單） ===
         function buildWordList() {
             wordList.innerHTML = '';
             cards.forEach((card, index) => {
@@ -327,7 +354,7 @@
             cardCount.textContent = cards.length.toString();
         }
 
-        // 使用 Bootstrap 的淺色樣式來標記當前項目（避免深藍色 active）
+        // 使用 Bootstrap 的淺色樣式來標記當前項目
         function updateWordListActive() {
             const items = wordList.querySelectorAll('button.list-group-item');
             items.forEach((el, idx) => {
@@ -335,6 +362,23 @@
                 if (idx === currentIndex) {
                     el.classList.add('list-group-item-light', 'fw-bold');
                 }
+            });
+        }
+
+        // 讓側邊清單在開啟時，捲動到當前單字卡
+        function scrollActiveWordIntoView() {
+            const items = wordList.querySelectorAll('button.list-group-item');
+            if (!items.length) return;
+            const target = items[currentIndex];
+            if (target && typeof target.scrollIntoView === 'function') {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        // Offcanvas 開啟後，讓當前項目自動捲到中間
+        if (wordListOffcanvasEl) {
+            wordListOffcanvasEl.addEventListener('shown.bs.offcanvas', () => {
+                scrollActiveWordIntoView();
             });
         }
 
@@ -384,19 +428,30 @@
             window.speechSynthesis.speak(utterance);
         }
 
-        // === 7. 事件綁定 ===
-        prevBtn.addEventListener('click', () => {
+        // === 7. 導航邏輯（上一張 / 下一張） ===
+        function gotoPrev() {
             if (!cards.length) return;
             currentIndex = (currentIndex - 1 + cards.length) % cards.length;
             renderCard();
-        });
+        }
 
-        nextBtn.addEventListener('click', () => {
+        function gotoNext() {
             if (!cards.length) return;
             currentIndex = (currentIndex + 1) % cards.length;
             renderCard();
-        });
+        }
 
+        // 桌機版按鈕
+        prevBtn.addEventListener('click', gotoPrev);
+        nextBtn.addEventListener('click', gotoNext);
+
+        // 手機版按鈕
+        if (prevBtnMobile && nextBtnMobile) {
+            prevBtnMobile.addEventListener('click', gotoPrev);
+            nextBtnMobile.addEventListener('click', gotoNext);
+        }
+
+        // === 8. 發音按鈕 ===
         // 英文：單字 / 句子
         speakEnWordBtn.addEventListener('click', () => {
             const card = cards[currentIndex];
@@ -439,7 +494,7 @@
             speak(textToSpeak, 'th-TH');
         });
 
-        // === 8. 初始化 ===
+        // === 9. 初始化 ===
         function init() {
             if (!cards.length) {
                 cardContainer.style.display = 'none';
