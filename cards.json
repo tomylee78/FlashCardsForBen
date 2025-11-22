@@ -1,0 +1,90 @@
+[
+    {
+        "word": "hug",
+        "zh": "擁抱",
+        "zh_pinyin": "yong bao",
+        "th": "กอด",
+        "examples": {
+            "en": {
+                "sentence": "She gave me a warm hug before leaving.",
+                "word": "hug"
+            },
+            "zh": {
+                "sentence": "她離開之前給了我一個溫暖的擁抱。",
+                "sentence_pinyin": "ta li kai zhi qian gei le wo yi ge wen nuan de yong bao",
+                "word": "擁抱",
+                "word_pinyin": "yong bao"
+            },
+            "th": {
+                "sentence": "เธอกอดฉันอย่างอบอุ่นก่อนจะไป",
+                "word": "กอด"
+            }
+        }
+    },
+    {
+        "word": "scent",
+        "zh": "香味",
+        "zh_pinyin": "xiang wei",
+        "th": "กลิ่นหอม",
+        "examples": {
+            "en": {
+                "sentence": "The scent of fresh flowers filled the room.",
+                "word": "scent"
+            },
+            "zh": {
+                "sentence": "新鮮花朵的香味充滿了整個房間。",
+                "sentence_pinyin": "xin xian hua duo de xiang wei chong man le zheng ge fang jian",
+                "word": "香味",
+                "word_pinyin": "xiang wei"
+            },
+            "th": {
+                "sentence": "กลิ่นหอมของดอกไม้สดอบอวลไปทั่วห้อง",
+                "word": "กลิ่นหอม"
+            }
+        }
+    },
+    {
+        "word": "pervy",
+        "zh": "變態的",
+        "zh_pinyin": "bian tai de",
+        "th": "ลามก",
+        "examples": {
+            "en": {
+                "sentence": "He made a pervy joke that made everyone uncomfortable.",
+                "word": "pervy"
+            },
+            "zh": {
+                "sentence": "他開了一個變態的玩笑，讓大家都覺得不舒服。",
+                "sentence_pinyin": "ta kai le yi ge bian tai de wan xiao rang da jia dou jue de bu shu fu",
+                "word": "變態的",
+                "word_pinyin": "bian tai de"
+            },
+            "th": {
+                "sentence": "เขาพูดมุกลามกที่ทำให้ทุกคนรู้สึกอึดอัด",
+                "word": "ลามก"
+            }
+        }
+    },
+    {
+        "word": "plushie",
+        "zh": "絨毛玩偶",
+        "zh_pinyin": "rong mao wan ou",
+        "th": "ตุ๊กตาผ้าขน",
+        "examples": {
+            "en": {
+                "sentence": "She keeps a cute plushie on her desk to make her feel relaxed.",
+                "word": "plushie"
+            },
+            "zh": {
+                "sentence": "她在桌上放了一個可愛的絨毛玩偶，讓自己感到放鬆。",
+                "sentence_pinyin": "ta zai zhuo shang fang le yi ge ke ai de rong mao wan ou rang zi ji gan dao fang song",
+                "word": "絨毛玩偶",
+                "word_pinyin": "rong mao wan ou"
+            },
+            "th": {
+                "sentence": "เธอวางตุ๊กตาผ้าขนตัวน่ารักไว้บนโต๊ะเพื่อให้รู้สึกผ่อนคลาย",
+                "word": "ตุ๊กตาผ้าขน"
+            }
+        }
+    }
+]

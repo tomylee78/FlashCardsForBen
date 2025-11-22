@@ -115,7 +115,7 @@
                                     <button type="button" class="btn btn-outline-success" id="speakZhWordBtn">
                                         🔊 單字
                                     </button>
-                                    <button type="button" class="btn btn-outline-success" id="speakZhSentenceBtn">
+                                    <button type="button" class="btn btn-outline成功" id="speakZhSentenceBtn">
                                         🔊 句子
                                     </button>
                                 </div>
@@ -180,79 +180,8 @@
 
     <!-- 主程式：單字卡邏輯 -->
     <script>
-        // === 1. 單字 JSON 資料 ===
-        const cards = [
-            {
-                word: 'hug',
-                zh: '擁抱',
-                zh_pinyin: 'yong bao',
-                th: 'กอด',
-                examples: {
-                    en: {
-                        sentence: 'She gave me a warm hug before leaving.',
-                        word: 'hug',
-                    },
-                    zh: {
-                        sentence: '她離開之前給了我一個溫暖的擁抱。',
-                        sentence_pinyin:
-                            'ta li kai zhi qian gei le wo yi ge wen nuan de yong bao',
-                        word: '擁抱',
-                        word_pinyin: 'yong bao',
-                    },
-                    th: {
-                        sentence: 'เธอกอดฉันอย่างอบอุ่นก่อนจะไป',
-                        word: 'กอด',
-                    },
-                },
-            },
-            {
-                word: 'scent',
-                zh: '香味',
-                zh_pinyin: 'xiang wei',
-                th: 'กลิ่นหอม',
-                examples: {
-                    en: {
-                        sentence: 'The scent of fresh flowers filled the room.',
-                        word: 'scent',
-                    },
-                    zh: {
-                        sentence: '新鮮花朵的香味充滿了整個房間。',
-                        sentence_pinyin:
-                            'xin xian hua duo de xiang wei chong man le zheng ge fang jian',
-                        word: '香味',
-                        word_pinyin: 'xiang wei',
-                    },
-                    th: {
-                        sentence: 'กลิ่นหอมของดอกไม้สดอบอวลไปทั่วห้อง',
-                        word: 'กลิ่นหอม',
-                    },
-                },
-            },
-            {
-                word: 'pervy',
-                zh: '變態的',
-                zh_pinyin: 'bian tai de',
-                th: 'ลามก',
-                examples: {
-                    en: {
-                        sentence: 'He made a pervy joke that made everyone uncomfortable.',
-                        word: 'pervy',
-                    },
-                    zh: {
-                        sentence:
-                            '他開了一個變態的玩笑，讓大家都覺得不舒服。',
-                        sentence_pinyin:
-                            'ta kai le yi ge bian tai de wan xiao rang da jia dou jue de bu shu fu',
-                        word: '變態的',
-                        word_pinyin: 'bian tai de',
-                    },
-                    th: {
-                        sentence: 'เขาพูดมุกลามกที่ทำให้ทุกคนรู้สึกอึดอัด',
-                        word: 'ลามก',
-                    },
-                },
-            },
-        ];
+        // === 1. 單字 JSON 資料：改為從外部 cards.json 載入 ===
+        let cards = []; // 由 fetch('cards.json') 填入
 
         // === 2. DOM 元素取得 ===
         const cardContainer = document.getElementById('cardContainer');
@@ -441,60 +370,62 @@
             renderCard();
         }
 
-        // 桌機版按鈕
-        prevBtn.addEventListener('click', gotoPrev);
-        nextBtn.addEventListener('click', gotoNext);
+        // === 8. 發音按鈕 ===
+        function bindEvents() {
+            // 桌機版按鈕
+            prevBtn.addEventListener('click', gotoPrev);
+            nextBtn.addEventListener('click', gotoNext);
 
-        // 手機版按鈕
-        if (prevBtnMobile && nextBtnMobile) {
-            prevBtnMobile.addEventListener('click', gotoPrev);
-            nextBtnMobile.addEventListener('click', gotoNext);
+            // 手機版按鈕
+            if (prevBtnMobile && nextBtnMobile) {
+                prevBtnMobile.addEventListener('click', gotoPrev);
+                nextBtnMobile.addEventListener('click', gotoNext);
+            }
+
+            // 英文：單字 / 句子
+            speakEnWordBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                speak(card.word, 'en-US');
+            });
+
+            speakEnSentenceBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                const textToSpeak = card.examples?.en?.sentence || card.word;
+                speak(textToSpeak, 'en-US');
+            });
+
+            // 中文：單字 / 句子
+            speakZhWordBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                const textToSpeak =
+                    card.examples?.zh?.word || card.zh || '';
+                speak(textToSpeak, 'zh-CN');
+            });
+
+            speakZhSentenceBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                const textToSpeak =
+                    card.examples?.zh?.sentence || card.zh || '';
+                speak(textToSpeak, 'zh-CN');
+            });
+
+            // 泰文：單字 / 句子
+            speakThWordBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                const textToSpeak =
+                    card.examples?.th?.word || card.th || '';
+                speak(textToSpeak, 'th-TH');
+            });
+
+            speakThSentenceBtn.addEventListener('click', () => {
+                const card = cards[currentIndex];
+                const textToSpeak =
+                    card.examples?.th?.sentence || card.th || '';
+                speak(textToSpeak, 'th-TH');
+            });
         }
 
-        // === 8. 發音按鈕 ===
-        // 英文：單字 / 句子
-        speakEnWordBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            speak(card.word, 'en-US');
-        });
-
-        speakEnSentenceBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            const textToSpeak = card.examples?.en?.sentence || card.word;
-            speak(textToSpeak, 'en-US');
-        });
-
-        // 中文：單字 / 句子
-        speakZhWordBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            const textToSpeak =
-                card.examples?.zh?.word || card.zh || '';
-            speak(textToSpeak, 'zh-CN');
-        });
-
-        speakZhSentenceBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            const textToSpeak =
-                card.examples?.zh?.sentence || card.zh || '';
-            speak(textToSpeak, 'zh-CN');
-        });
-
-        // 泰文：單字 / 句子
-        speakThWordBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            const textToSpeak =
-                card.examples?.th?.word || card.th || '';
-            speak(textToSpeak, 'th-TH');
-        });
-
-        speakThSentenceBtn.addEventListener('click', () => {
-            const card = cards[currentIndex];
-            const textToSpeak =
-                card.examples?.th?.sentence || card.th || '';
-            speak(textToSpeak, 'th-TH');
-        });
-
-        // === 9. 初始化 ===
+        // === 9. 初始化流程 ===
         function init() {
             if (!cards.length) {
                 cardContainer.style.display = 'none';
@@ -507,7 +438,32 @@
             renderCard();
         }
 
-        init();
+        // 從 cards.json 載入資料再初始化
+        async function loadCardsAndInit() {
+            try {
+                const res = await fetch('cards.json', { cache: 'no-cache' });
+                if (!res.ok) {
+                    throw new Error('載入 cards.json 失敗：' + res.status);
+                }
+                const data = await res.json();
+                if (!Array.isArray(data)) {
+                    throw new Error('cards.json 格式應為陣列');
+                }
+                cards = data;
+            } catch (err) {
+                console.error(err);
+                alert('載入單字卡資料失敗，請確認 cards.json 是否存在且格式正確。');
+                cardContainer.style.display = 'none';
+                noDataAlert.style.display = 'block';
+                return;
+            }
+
+            init();
+        }
+
+        // 綁定事件後，載入資料並初始化
+        bindEvents();
+        loadCardsAndInit();
     </script>
 </body>
 
