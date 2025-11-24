@@ -4,6 +4,7 @@
         "zh": "擁抱",
         "zh_pinyin": "yong bao",
         "th": "กอด",
+        "type": "n.",
         "examples": {
             "en": {
                 "sentence": "She gave me a warm hug before leaving.",
@@ -26,6 +27,7 @@
         "zh": "香味",
         "zh_pinyin": "xiang wei",
         "th": "กลิ่นหอม",
+        "type": "n.",
         "examples": {
             "en": {
                 "sentence": "The scent of fresh flowers filled the room.",
@@ -48,6 +50,7 @@
         "zh": "變態的",
         "zh_pinyin": "bian tai de",
         "th": "ลามก",
+        "type": "adj.",
         "examples": {
             "en": {
                 "sentence": "He made a pervy joke that made everyone uncomfortable.",
@@ -70,6 +73,7 @@
         "zh": "絨毛玩偶",
         "zh_pinyin": "rong mao wan ou",
         "th": "ตุ๊กตาผ้าขน",
+        "type": "n.",
         "examples": {
             "en": {
                 "sentence": "She keeps a cute plushie on her desk to make her feel relaxed.",

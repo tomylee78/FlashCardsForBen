@@ -1,0 +1,669 @@
+[
+    {
+        "word": "pervy",
+        "zh": "變態的",
+        "zh_pinyin": "bian tai de",
+        "th": "ลามก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "He made a pervy joke that made everyone uncomfortable.",
+                "word": "pervy"
+            },
+            "zh": {
+                "sentence": "他開了一個變態的玩笑，讓大家都覺得不舒服。",
+                "sentence_pinyin": "ta kai le yi ge bian tai de wan xiao rang da jia dou jue de bu shu fu",
+                "word": "變態的",
+                "word_pinyin": "bian tai de"
+            },
+            "th": {
+                "sentence": "เขาพูดมุกลามกที่ทำให้ทุกคนรู้สึกอึดอัด",
+                "word": "ลามก"
+            }
+        }
+    },
+    {
+        "word": "plushie",
+        "zh": "絨毛玩偶",
+        "zh_pinyin": "rong mao wan ou",
+        "th": "ตุ๊กตาผ้าขน",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She keeps a cute plushie on her desk to make her feel relaxed.",
+                "word": "plushie"
+            },
+            "zh": {
+                "sentence": "她在桌上放了一個可愛的絨毛玩偶，讓自己感到放鬆。",
+                "sentence_pinyin": "ta zai zhuo shang fang le yi ge ke ai de rong mao wan ou rang zi ji gan dao fang song",
+                "word": "絨毛玩偶",
+                "word_pinyin": "rong mao wan ou"
+            },
+            "th": {
+                "sentence": "เธอวางตุ๊กตาผ้าขนตัวน่ารักไว้บนโต๊ะเพื่อให้รู้สึกผ่อนคลาย",
+                "word": "ตุ๊กตาผ้าขน"
+            }
+        }
+    },
+    {
+        "word": "treat",
+        "zh": "對待；款待",
+        "zh_pinyin": "dui dai; kuan dai",
+        "th": "ปฏิบัติต่อ; เลี้ยง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "You should treat people with kindness.",
+                "word": "treat"
+            },
+            "zh": {
+                "sentence": "你應該用善意對待別人。",
+                "sentence_pinyin": "ni ying gai yong shan yi dui dai bie ren",
+                "word": "對待",
+                "word_pinyin": "dui dai"
+            },
+            "th": {
+                "sentence": "คุณควรปฏิบัติต่อคนอื่นด้วยความใจดี",
+                "word": "ปฏิบัติต่อ"
+            }
+        }
+    },
+    {
+        "word": "confortable",
+        "zh": "舒服的",
+        "zh_pinyin": "shu fu de",
+        "th": "สบาย",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "This chair is very confortable to sit on.",
+                "word": "confortable"
+            },
+            "zh": {
+                "sentence": "這張椅子坐起來非常舒服。",
+                "sentence_pinyin": "zhe zhang yi zi zuo qi lai fei chang shu fu",
+                "word": "舒服的",
+                "word_pinyin": "shu fu de"
+            },
+            "th": {
+                "sentence": "เก้าอี้ตัวนี้นั่งสบายมาก",
+                "word": "สบาย"
+            }
+        }
+    },
+    {
+        "word": "confidence",
+        "zh": "自信",
+        "zh_pinyin": "zi xin",
+        "th": "ความมั่นใจ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She speaks with great confidence.",
+                "word": "confidence"
+            },
+            "zh": {
+                "sentence": "她說話充滿自信。",
+                "sentence_pinyin": "ta shuo hua chong man zi xin",
+                "word": "自信",
+                "word_pinyin": "zi xin"
+            },
+            "th": {
+                "sentence": "เธอพูดด้วยความมั่นใจมาก",
+                "word": "ความมั่นใจ"
+            }
+        }
+    },
+    {
+        "word": "menstrual",
+        "zh": "月經的",
+        "zh_pinyin": "yue jing de",
+        "th": "เกี่ยวกับประจำเดือน",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She often feels tired during her menstrual cycle.",
+                "word": "menstrual"
+            },
+            "zh": {
+                "sentence": "她在月經期間常常覺得累。",
+                "sentence_pinyin": "ta zai yue jing qi jian chang chang jue de lei",
+                "word": "月經的",
+                "word_pinyin": "yue jing de"
+            },
+            "th": {
+                "sentence": "เธอมักรู้สึกเหนื่อยในช่วงรอบเดือน",
+                "word": "ประจำเดือน"
+            }
+        }
+    },
+    {
+        "word": "cramps",
+        "zh": "痙攣；抽痛",
+        "zh_pinyin": "jing luan; chou tong",
+        "th": "ปวดเกร็ง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She gets menstrual cramps every month.",
+                "word": "cramps"
+            },
+            "zh": {
+                "sentence": "她每個月都會有經痛。",
+                "sentence_pinyin": "ta mei ge yue dou hui you jing tong",
+                "word": "抽痛",
+                "word_pinyin": "chou tong"
+            },
+            "th": {
+                "sentence": "เธอมีอาการปวดประจำเดือนทุกเดือน",
+                "word": "ปวดเกร็ง"
+            }
+        }
+    },
+    {
+        "word": "straightforward",
+        "zh": "直白的；坦率的",
+        "zh_pinyin": "zhi bai de; tan shuai de",
+        "th": "ตรงไปตรงมา",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "He gave me a straightforward answer.",
+                "word": "straightforward"
+            },
+            "zh": {
+                "sentence": "他給了我一個很直白的回答。",
+                "sentence_pinyin": "ta gei le wo yi ge hen zhi bai de hui da",
+                "word": "直白的",
+                "word_pinyin": "zhi bai de"
+            },
+            "th": {
+                "sentence": "เขาให้คำตอบที่ตรงไปตรงมา",
+                "word": "ตรงไปตรงมา"
+            }
+        }
+    },
+    {
+        "word": "appreciate",
+        "zh": "感激；欣賞",
+        "zh_pinyin": "gan ji; xin shang",
+        "th": "ขอบคุณ; ชื่นชม",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I really appreciate your help.",
+                "word": "appreciate"
+            },
+            "zh": {
+                "sentence": "我真的很感激你的幫忙。",
+                "sentence_pinyin": "wo zhen de hen gan ji ni de bang mang",
+                "word": "感激",
+                "word_pinyin": "gan ji"
+            },
+            "th": {
+                "sentence": "ฉันขอบคุณสำหรับความช่วยเหลือของคุณจริงๆ",
+                "word": "ขอบคุณ"
+            }
+        }
+    },
+    {
+        "word": "bury",
+        "zh": "埋葬；掩埋",
+        "zh_pinyin": "mai zang; yan mai",
+        "th": "ฝัง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "He tried to bury his past mistakes.",
+                "word": "bury"
+            },
+            "zh": {
+                "sentence": "他試圖掩埋自己過去的錯誤。",
+                "sentence_pinyin": "ta shi tu yan mai zi ji guo qu de cuo wu",
+                "word": "掩埋",
+                "word_pinyin": "yan mai"
+            },
+            "th": {
+                "sentence": "เขาพยายามฝังความผิดพลาดในอดีตของตัวเอง",
+                "word": "ฝัง"
+            }
+        }
+    },
+    {
+        "word": "suddenly",
+        "zh": "突然地",
+        "zh_pinyin": "tu ran de",
+        "th": "ทันใดนั้น",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "It suddenly started raining.",
+                "word": "suddenly"
+            },
+            "zh": {
+                "sentence": "突然下起雨來了。",
+                "sentence_pinyin": "tu ran xia qi yu lai le",
+                "word": "突然地",
+                "word_pinyin": "tu ran de"
+            },
+            "th": {
+                "sentence": "ฝนตกลงมาอย่างกะทันหัน",
+                "word": "กะทันหัน"
+            }
+        }
+    },
+    {
+        "word": "embarrassing",
+        "zh": "尷尬的",
+        "zh_pinyin": "gan ga de",
+        "th": "น่าอาย",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "It was an embarrassing moment for him.",
+                "word": "embarrassing"
+            },
+            "zh": {
+                "sentence": "那對他來說是個很尷尬的時刻。",
+                "sentence_pinyin": "na dui ta lai shuo shi ge hen gan ga de shi ke",
+                "word": "尷尬的",
+                "word_pinyin": "gan ga de"
+            },
+            "th": {
+                "sentence": "มันเป็นช่วงเวลาที่น่าอายสำหรับเขา",
+                "word": "น่าอาย"
+            }
+        }
+    },
+    {
+        "word": "smoothly",
+        "zh": "順利地；平順地",
+        "zh_pinyin": "shun li de; ping shun de",
+        "th": "อย่างราบรื่น",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "Everything went smoothly during the meeting.",
+                "word": "smoothly"
+            },
+            "zh": {
+                "sentence": "會議期間一切進行得很順利。",
+                "sentence_pinyin": "hui yi qi jian yi qie jin xing de hen shun li",
+                "word": "順利地",
+                "word_pinyin": "shun li de"
+            },
+            "th": {
+                "sentence": "ทุกอย่างดำเนินไปอย่างราบรื่นในการประชุม",
+                "word": "ราบรื่น"
+            }
+        }
+    },
+    {
+        "word": "express",
+        "zh": "表達",
+        "zh_pinyin": "biao da",
+        "th": "แสดงออก",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "He found it hard to express his feelings.",
+                "word": "express"
+            },
+            "zh": {
+                "sentence": "他覺得很難表達自己的感受。",
+                "sentence_pinyin": "ta jue de hen nan biao da zi ji de gan shou",
+                "word": "表達",
+                "word_pinyin": "biao da"
+            },
+            "th": {
+                "sentence": "เขารู้สึกว่าเป็นเรื่องยากที่จะเเสดงความรู้สึกของตัวเอง",
+                "word": "แสดงออก"
+            }
+        }
+    },
+    {
+        "word": "experience",
+        "zh": "經驗",
+        "zh_pinyin": "jing yan",
+        "th": "ประสบการณ์",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Traveling gives you valuable experience.",
+                "word": "experience"
+            },
+            "zh": {
+                "sentence": "旅行能帶給你寶貴的經驗。",
+                "sentence_pinyin": "lv xing neng dai gei ni bao gui de jing yan",
+                "word": "經驗",
+                "word_pinyin": "jing yan"
+            },
+            "th": {
+                "sentence": "การเดินทางให้ประสบการณ์ที่มีค่าแก่คุณ",
+                "word": "ประสบการณ์"
+            }
+        }
+    },
+    {
+        "word": "guess",
+        "zh": "猜測",
+        "zh_pinyin": "cai ce",
+        "th": "เดา",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "Can you guess what I'm thinking?",
+                "word": "guess"
+            },
+            "zh": {
+                "sentence": "你能猜到我在想什麼嗎？",
+                "sentence_pinyin": "ni neng cai dao wo zai xiang shen me ma",
+                "word": "猜測",
+                "word_pinyin": "cai ce"
+            },
+            "th": {
+                "sentence": "คุณเดาได้ไหมว่าฉันกำลังคิดอะไรอยู่",
+                "word": "เดา"
+            }
+        }
+    },
+    {
+        "word": "tourist",
+        "zh": "遊客",
+        "zh_pinyin": "you ke",
+        "th": "นักท่องเที่ยว",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Many tourists visit Thailand every year.",
+                "word": "tourist"
+            },
+            "zh": {
+                "sentence": "每年有許多遊客造訪泰國。",
+                "sentence_pinyin": "mei nian you xu duo you ke zao fang tai guo",
+                "word": "遊客",
+                "word_pinyin": "you ke"
+            },
+            "th": {
+                "sentence": "มีนักท่องเที่ยวจำนวนมากมาเที่ยวประเทศไทยทุกปี",
+                "word": "นักท่องเที่ยว"
+            }
+        }
+    },
+    {
+        "word": "exceptional",
+        "zh": "卓越的；特別的",
+        "zh_pinyin": "zhuo yue de; te bie de",
+        "th": "ยอดเยี่ยม",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She has exceptional talent in music.",
+                "word": "exceptional"
+            },
+            "zh": {
+                "sentence": "她在音樂方面有著卓越的天賦。",
+                "sentence_pinyin": "ta zai yin yue fang mian you zhe zhuo yue de tian fu",
+                "word": "卓越的",
+                "word_pinyin": "zhuo yue de"
+            },
+            "th": {
+                "sentence": "เธอมีพรสวรรค์ด้านดนตรีที่ยอดเยี่ยม",
+                "word": "ยอดเยี่ยม"
+            }
+        }
+    },
+    {
+        "word": "initiative",
+        "zh": "主動性；倡議",
+        "zh_pinyin": "zhu dong xing; chang yi",
+        "th": "ความริเริ่ม",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She showed great initiative at work.",
+                "word": "initiative"
+            },
+            "zh": {
+                "sentence": "她在工作中展現了很強的主動性。",
+                "sentence_pinyin": "ta zai gong zuo zhong zhan xian le hen qiang de zhu dong xing",
+                "word": "主動性",
+                "word_pinyin": "zhu dong xing"
+            },
+            "th": {
+                "sentence": "เธอแสดงให้เห็นถึงความริเริ่มที่ดีในการทำงาน",
+                "word": "ความริเริ่ม"
+            }
+        }
+    },
+    {
+        "word": "deserve",
+        "zh": "值得；應得",
+        "zh_pinyin": "zhi de; ying de",
+        "th": "คู่ควร",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "You deserve to be happy.",
+                "word": "deserve"
+            },
+            "zh": {
+                "sentence": "你值得幸福。",
+                "sentence_pinyin": "ni zhi de xing fu",
+                "word": "值得",
+                "word_pinyin": "zhi de"
+            },
+            "th": {
+                "sentence": "คุณคู่ควรกับความสุข",
+                "word": "คู่ควร"
+            }
+        }
+    },
+    {
+        "word": "instead",
+        "zh": "代替；反而",
+        "zh_pinyin": "dai ti; fan er",
+        "th": "แทน",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I didn’t go out; I stayed home instead.",
+                "word": "instead"
+            },
+            "zh": {
+                "sentence": "我沒有出去，反而待在家裡。",
+                "sentence_pinyin": "wo mei you chu qu fan er dai zai jia li",
+                "word": "反而",
+                "word_pinyin": "fan er"
+            },
+            "th": {
+                "sentence": "ฉันไม่ได้ออกไปข้างนอก แต่เลือกอยู่บ้านแทน",
+                "word": "แทน"
+            }
+        }
+    },
+    {
+        "word": "impression",
+        "zh": "印象",
+        "zh_pinyin": "yin xiang",
+        "th": "ความประทับใจ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She made a strong first impression.",
+                "word": "impression"
+            },
+            "zh": {
+                "sentence": "她留下了很深的第一印象。",
+                "sentence_pinyin": "ta liu xia le hen shen de di yi yin xiang",
+                "word": "印象",
+                "word_pinyin": "yin xiang"
+            },
+            "th": {
+                "sentence": "เธอสร้างความประทับใจแรกที่ดีมาก",
+                "word": "ความประทับใจ"
+            }
+        }
+    },
+    {
+        "word": "petite",
+        "zh": "嬌小的",
+        "zh_pinyin": "jiao xiao de",
+        "th": "ตัวเล็ก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She is petite but very strong.",
+                "word": "petite"
+            },
+            "zh": {
+                "sentence": "她雖然嬌小，但非常有力量。",
+                "sentence_pinyin": "ta sui ran jiao xiao dan fei chang you li liang",
+                "word": "嬌小的",
+                "word_pinyin": "jiao xiao de"
+            },
+            "th": {
+                "sentence": "เธอตัวเล็กแต่แข็งแรงมาก",
+                "word": "ตัวเล็ก"
+            }
+        }
+    },
+    {
+        "word": "annoying",
+        "zh": "惱人的；令人煩躁的",
+        "zh_pinyin": "nao ren de; ling ren fan zao de",
+        "th": "น่ารำคาญ",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "His constant tapping was really annoying.",
+                "word": "annoying"
+            },
+            "zh": {
+                "sentence": "他一直敲桌子的動作真的很惱人。",
+                "sentence_pinyin": "ta yi zhi qiao zhuo zi de dong zuo zhen de hen nao ren",
+                "word": "惱人的",
+                "word_pinyin": "nao ren de"
+            },
+            "th": {
+                "sentence": "การเคาะโต๊ะของเขาตลอดเวลาน่ารำคาญมาก",
+                "word": "น่ารำคาญ"
+            }
+        }
+    },
+    {
+        "word": "confronted",
+        "zh": "面對；遭遇",
+        "zh_pinyin": "mian dui; zao yu",
+        "th": "เผชิญหน้า",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "She confronted her fears bravely.",
+                "word": "confronted"
+            },
+            "zh": {
+                "sentence": "她勇敢地面對了自己的恐懼。",
+                "sentence_pinyin": "ta yong gan de mian dui le zi ji de kong ju",
+                "word": "面對",
+                "word_pinyin": "mian dui"
+            },
+            "th": {
+                "sentence": "เธอเผชิญหน้ากับความกลัวของตัวเองอย่างกล้าหาญ",
+                "word": "เผชิญหน้า"
+            }
+        }
+    },
+    {
+        "word": "contrast",
+        "zh": "對比；差異",
+        "zh_pinyin": "dui bi; cha yi",
+        "th": "ความแตกต่าง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "The contrast between day and night is obvious.",
+                "word": "contrast"
+            },
+            "zh": {
+                "sentence": "白天和夜晚之間的差異非常明顯。",
+                "sentence_pinyin": "bai tian he ye wan zhi jian de cha yi fei chang ming xian",
+                "word": "差異",
+                "word_pinyin": "cha yi"
+            },
+            "th": {
+                "sentence": "ความแตกต่างระหว่างกลางวันและกลางคืนชัดเจนมาก",
+                "word": "ความแตกต่าง"
+            }
+        }
+    },
+    {
+        "word": "personality",
+        "zh": "個性",
+        "zh_pinyin": "ge xing",
+        "th": "บุคลิกภาพ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She has a very warm personality.",
+                "word": "personality"
+            },
+            "zh": {
+                "sentence": "她的個性非常溫暖。",
+                "sentence_pinyin": "ta de ge xing fei chang wen nuan",
+                "word": "個性",
+                "word_pinyin": "ge xing"
+            },
+            "th": {
+                "sentence": "เธอมีบุคลิกภาพที่อบอุ่นมาก",
+                "word": "บุคลิกภาพ"
+            }
+        }
+    },
+    {
+        "word": "phrase",
+        "zh": "片語；詞組",
+        "zh_pinyin": "pian yu; ci zu",
+        "th": "วลี",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "It's a common English phrase.",
+                "word": "phrase"
+            },
+            "zh": {
+                "sentence": "這是一個常見的英文片語。",
+                "sentence_pinyin": "zhe shi yi ge chang jian de ying wen pian yu",
+                "word": "片語",
+                "word_pinyin": "pian yu"
+            },
+            "th": {
+                "sentence": "นี่เป็นวลีภาษาอังกฤษที่ใช้บ่อย",
+                "word": "วลี"
+            }
+        }
+    },
+    {
+        "word": "adorable",
+        "zh": "可愛的",
+        "zh_pinyin": "ke ai de",
+        "th": "น่ารัก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "The puppy is absolutely adorable.",
+                "word": "adorable"
+            },
+            "zh": {
+                "sentence": "這隻小狗實在是太可愛了。",
+                "sentence_pinyin": "zhe zhi xiao gou shi zai shi tai ke ai le",
+                "word": "可愛的",
+                "word_pinyin": "ke ai de"
+            },
+            "th": {
+                "sentence": "ลูกสุนัขตัวนี้น่ารักมาก",
+                "word": "น่ารัก"
+            }
+        }
+    }
+]
