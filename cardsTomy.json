@@ -1,5 +1,51 @@
 [
     {
+        "word": "hug",
+        "zh": "擁抱",
+        "zh_pinyin": "yong bao",
+        "th": "กอด",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She gave me a warm hug before leaving.",
+                "word": "hug"
+            },
+            "zh": {
+                "sentence": "她離開之前給了我一個溫暖的擁抱。",
+                "sentence_pinyin": "ta li kai zhi qian gei le wo yi ge wen nuan de yong bao",
+                "word": "擁抱",
+                "word_pinyin": "yong bao"
+            },
+            "th": {
+                "sentence": "เธอกอดฉันอย่างอบอุ่นก่อนจะไป",
+                "word": "กอด"
+            }
+        }
+    },
+    {
+        "word": "scent",
+        "zh": "香味",
+        "zh_pinyin": "xiang wei",
+        "th": "กลิ่นหอม",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "The scent of fresh flowers filled the room.",
+                "word": "scent"
+            },
+            "zh": {
+                "sentence": "新鮮花朵的香味充滿了整個房間。",
+                "sentence_pinyin": "xin xian hua duo de xiang wei chong man le zheng ge fang jian",
+                "word": "香味",
+                "word_pinyin": "xiang wei"
+            },
+            "th": {
+                "sentence": "กลิ่นหอมของดอกไม้สดอบอวลไปทั่วห้อง",
+                "word": "กลิ่นหอม"
+            }
+        }
+    },
+    {
         "word": "pervy",
         "zh": "變態的",
         "zh_pinyin": "bian tai de",
@@ -663,6 +709,29 @@
             "th": {
                 "sentence": "ลูกสุนัขตัวนี้น่ารักมาก",
                 "word": "น่ารัก"
+            }
+        }
+    },
+    {
+        "word": "honestly",
+        "zh": "老實說；坦白地",
+        "zh_pinyin": "lao shi shuo; tan bai de",
+        "th": "พูดตามตรง",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "Honestly, I didn’t expect that to happen.",
+                "word": "honestly"
+            },
+            "zh": {
+                "sentence": "老實說，我真的沒想到會發生那件事。",
+                "sentence_pinyin": "lao shi shuo wo zhen de mei xiang dao hui fa sheng na jian shi",
+                "word": "老實說",
+                "word_pinyin": "lao shi shuo"
+            },
+            "th": {
+                "sentence": "พูดตามตรง ฉันไม่คิดว่าจะเกิดเรื่องนั้นขึ้น",
+                "word": "พูดตามตรง"
             }
         }
     }

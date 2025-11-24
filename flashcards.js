@@ -94,7 +94,7 @@ function buildWordList() {
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className =
-            'list-group-item list-group-item-action d-flex justify-content-between align-items-center';
+            'list-group-item list-group-item-action d-flex justify-content-between align-items-center gap-3';
         btn.dataset.index = index;
 
         const leftSpan = document.createElement('span');
