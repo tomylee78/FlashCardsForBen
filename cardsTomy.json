@@ -734,5 +734,742 @@
                 "word": "พูดตามตรง"
             }
         }
+    },
+
+    {
+        "word": "rarely",
+        "zh": "很少；難得",
+        "zh_pinyin": "hen shao; nan de",
+        "th": "ไม่ค่อย",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I rarely drink alcohol these days.",
+                "word": "rarely"
+            },
+            "zh": {
+                "sentence": "我現在已經很少喝酒了。",
+                "sentence_pinyin": "wo xian zai yi jing hen shao he jiu le",
+                "word": "很少",
+                "word_pinyin": "hen shao"
+            },
+            "th": {
+                "sentence": "ช่วงนี้ฉันไม่ค่อยดื่มแอลกอฮอล์แล้ว",
+                "word": "ไม่ค่อย"
+            }
+        }
+    },
+    {
+        "word": "instead",
+        "zh": "代替；反而",
+        "zh_pinyin": "dai ti; fan er",
+        "th": "แทน",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I stayed home instead of going to the party.",
+                "word": "instead"
+            },
+            "zh": {
+                "sentence": "我沒有去派對，反而待在家裡。",
+                "sentence_pinyin": "wo mei you qu pai dui fan er dai zai jia li",
+                "word": "反而",
+                "word_pinyin": "fan er"
+            },
+            "th": {
+                "sentence": "ฉันไม่ได้ไปงานปาร์ตี้ แต่เลือกอยู่บ้านแทน",
+                "word": "แทน"
+            }
+        }
+    },
+    {
+        "word": "rough",
+        "zh": "艱難的；粗糙的",
+        "zh_pinyin": "jian nan de; cu cao de",
+        "th": "ยากลำบาก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "It was a rough week at work.",
+                "word": "rough"
+            },
+            "zh": {
+                "sentence": "這一週的工作過得很艱難。",
+                "sentence_pinyin": "zhe yi zhou de gong zuo guo de hen jian nan",
+                "word": "艱難的",
+                "word_pinyin": "jian nan de"
+            },
+            "th": {
+                "sentence": "สัปดาห์นี้ที่ทำงานหนักและยากลำบากมาก",
+                "word": "ยากลำบาก"
+            }
+        }
+    },
+    {
+        "word": "rest",
+        "zh": "休息",
+        "zh_pinyin": "xiu xi",
+        "th": "พักผ่อน",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "You should get some rest after work.",
+                "word": "rest"
+            },
+            "zh": {
+                "sentence": "下班之後你應該好好休息一下。",
+                "sentence_pinyin": "xia ban zhi hou ni ying gai hao hao xiu xi yi xia",
+                "word": "休息",
+                "word_pinyin": "xiu xi"
+            },
+            "th": {
+                "sentence": "หลังเลิกงานคุณควรพักผ่อนให้เพียงพอ",
+                "word": "พักผ่อน"
+            }
+        }
+    },
+    {
+        "word": "alcohol",
+        "zh": "酒精；酒類",
+        "zh_pinyin": "jiu jing; jiu lei",
+        "th": "แอลกอฮอล์",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Too much alcohol is bad for your health.",
+                "word": "alcohol"
+            },
+            "zh": {
+                "sentence": "喝太多酒對健康不好。",
+                "sentence_pinyin": "he tai duo jiu dui jian kang bu hao",
+                "word": "酒精",
+                "word_pinyin": "jiu jing"
+            },
+            "th": {
+                "sentence": "แอลกอฮอล์มากเกินไปไม่ดีต่อสุขภาพของคุณ",
+                "word": "แอลกอฮอล์"
+            }
+        }
+    },
+    {
+        "word": "messes",
+        "zh": "弄亂；搞砸",
+        "zh_pinyin": "nong luan; gao za",
+        "th": "ทำให้ยุ่ง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "Alcohol really messes with your body.",
+                "word": "messes"
+            },
+            "zh": {
+                "sentence": "酒精真的會把你的身體搞砸。",
+                "sentence_pinyin": "jiu jing zhen de hui ba ni de shen ti gao za",
+                "word": "搞砸",
+                "word_pinyin": "gao za"
+            },
+            "th": {
+                "sentence": "แอลกอฮอล์ทำให้ร่างกายของคุณยุ่งไปหมด",
+                "word": "ทำให้ยุ่ง"
+            }
+        }
+    },
+    {
+        "word": "quality",
+        "zh": "品質",
+        "zh_pinyin": "pin zhi",
+        "th": "คุณภาพ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Sleep quality is very important.",
+                "word": "quality"
+            },
+            "zh": {
+                "sentence": "睡眠品質非常重要。",
+                "sentence_pinyin": "shui mian pin zhi fei chang zhong yao",
+                "word": "品質",
+                "word_pinyin": "pin zhi"
+            },
+            "th": {
+                "sentence": "คุณภาพการนอนหลับสำคัญมาก",
+                "word": "คุณภาพ"
+            }
+        }
+    },
+    {
+        "word": "deep",
+        "zh": "深的",
+        "zh_pinyin": "shen de",
+        "th": "ลึก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Take a deep breath and relax.",
+                "word": "deep"
+            },
+            "zh": {
+                "sentence": "深呼吸一下，放輕鬆。",
+                "sentence_pinyin": "shen hu xi yi xia fang qing song",
+                "word": "深的",
+                "word_pinyin": "shen de"
+            },
+            "th": {
+                "sentence": "หายใจเข้าลึก ๆ แล้วผ่อนคลาย",
+                "word": "ลึก"
+            }
+        }
+    },
+    {
+        "word": "breath",
+        "zh": "呼吸；一口氣",
+        "zh_pinyin": "hu xi; yi kou qi",
+        "th": "ลมหายใจ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Take a deep breath before you speak.",
+                "word": "breath"
+            },
+            "zh": {
+                "sentence": "說話之前先深吸一口氣。",
+                "sentence_pinyin": "shuo hua zhi qian xian shen xi yi kou qi",
+                "word": "呼吸",
+                "word_pinyin": "hu xi"
+            },
+            "th": {
+                "sentence": "ก่อนพูดให้หายใจเข้าลึก ๆ ก่อนหนึ่งครั้ง",
+                "word": "ลมหายใจ"
+            }
+        }
+    },
+    {
+        "word": "rid",
+        "zh": "擺脫；去除",
+        "zh_pinyin": "bai tuo; qu chu",
+        "th": "กำจัด",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I want to get rid of this bad habit.",
+                "word": "rid"
+            },
+            "zh": {
+                "sentence": "我想擺脫這個壞習慣。",
+                "sentence_pinyin": "wo xiang bai tuo zhe ge huai xi guan",
+                "word": "擺脫",
+                "word_pinyin": "bai tuo"
+            },
+            "th": {
+                "sentence": "ฉันอยากกำจัดนิสัยที่ไม่ดีนี้ทิ้งไป",
+                "word": "กำจัด"
+            }
+        }
+    },
+    {
+        "word": "boiling",
+        "zh": "沸騰的；滾燙的",
+        "zh_pinyin": "fei teng de; gun tang de",
+        "th": "ร้อนเดือด",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "The water is boiling on the stove.",
+                "word": "boiling"
+            },
+            "zh": {
+                "sentence": "爐子上的水已經在沸騰了。",
+                "sentence_pinyin": "lu zi shang de shui yi jing zai fei teng le",
+                "word": "沸騰的",
+                "word_pinyin": "fei teng de"
+            },
+            "th": {
+                "sentence": "น้ำบนเตากำลังเดือดอยู่",
+                "word": "เดือด"
+            }
+        }
+    },
+    {
+        "word": "vomit",
+        "zh": "嘔吐",
+        "zh_pinyin": "ou tu",
+        "th": "อาเจียน",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "He felt so sick that he almost vomited.",
+                "word": "vomit"
+            },
+            "zh": {
+                "sentence": "他覺得很不舒服，差點吐出來。",
+                "sentence_pinyin": "ta jue de hen bu shu fu cha dian tu chu lai",
+                "word": "嘔吐",
+                "word_pinyin": "ou tu"
+            },
+            "th": {
+                "sentence": "เขารู้สึกแย่มากจนเกือบอาเจียน",
+                "word": "อาเจียน"
+            }
+        }
+    },
+    {
+        "word": "hangover",
+        "zh": "宿醉；酒醉後不適",
+        "zh_pinyin": "su zui; jiu zui hou bu shi",
+        "th": "อาการเมาค้าง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "My hangover was terrible this morning.",
+                "word": "hangover"
+            },
+            "zh": {
+                "sentence": "我今天早上的宿醉反應很嚴重。",
+                "sentence_pinyin": "wo jin tian zao shang de su zui fan ying hen yan zhong",
+                "word": "宿醉",
+                "word_pinyin": "su zui"
+            },
+            "th": {
+                "sentence": "เช้านี้อาการเมาค้างของฉันแย่มาก",
+                "word": "อาการเมาค้าง"
+            }
+        }
+    },
+    {
+        "word": "condition",
+        "zh": "狀況；條件",
+        "zh_pinyin": "zhuang kuang; tiao jian",
+        "th": "สภาพ; เงื่อนไข",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Your health condition is getting better.",
+                "word": "condition"
+            },
+            "zh": {
+                "sentence": "你的健康狀況正在好轉。",
+                "sentence_pinyin": "ni de jian kang zhuang kuang zheng zai hao zhuan",
+                "word": "狀況",
+                "word_pinyin": "zhuang kuang"
+            },
+            "th": {
+                "sentence": "สภาพสุขภาพของคุณกำลังดีขึ้น",
+                "word": "สภาพ"
+            }
+        }
+    },
+    {
+        "word": "nagging",
+        "zh": "嘮叨的；纏人的",
+        "zh_pinyin": "lao dao de; chan ren de",
+        "th": "ที่บ่นไม่หยุด",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "I still have a nagging headache.",
+                "word": "nagging"
+            },
+            "zh": {
+                "sentence": "我還有一陣揮之不去的頭痛。",
+                "sentence_pinyin": "wo hai you yi zhen hui zhi bu qu de tou tong",
+                "word": "纏人的",
+                "word_pinyin": "chan ren de"
+            },
+            "th": {
+                "sentence": "ฉันยังมีอาการปวดหัวที่ไม่หายสักที",
+                "word": "ที่บ่นไม่หยุด"
+            }
+        }
+    },
+    {
+        "word": "salary",
+        "zh": "薪水；薪資",
+        "zh_pinyin": "xin shui; xin zi",
+        "th": "เงินเดือน",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Her salary increased after the promotion.",
+                "word": "salary"
+            },
+            "zh": {
+                "sentence": "她升職之後薪水就增加了。",
+                "sentence_pinyin": "ta sheng zhi zhi hou xin shui jiu zeng jia le",
+                "word": "薪水",
+                "word_pinyin": "xin shui"
+            },
+            "th": {
+                "sentence": "หลังจากได้เลื่อนตำแหน่ง เงินเดือนของเธอก็เพิ่มขึ้น",
+                "word": "เงินเดือน"
+            }
+        }
+    },
+    {
+        "word": "considered",
+        "zh": "被認為是；經過考慮的",
+        "zh_pinyin": "bei ren wei shi; jing guo kao lv de",
+        "th": "ถูกมองว่า",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She is considered a very reliable person.",
+                "word": "considered"
+            },
+            "zh": {
+                "sentence": "她被認為是一個非常可靠的人。",
+                "sentence_pinyin": "ta bei ren wei shi yi ge fei chang ke kao de ren",
+                "word": "被認為是",
+                "word_pinyin": "bei ren wei shi"
+            },
+            "th": {
+                "sentence": "เธอถูกมองว่าเป็นคนที่น่าเชื่อถือมาก",
+                "word": "ถูกมองว่า"
+            }
+        }
+    },
+    {
+        "word": "admire",
+        "zh": "欽佩；欣賞",
+        "zh_pinyin": "qin pei; xin shang",
+        "th": "ชื่นชม",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I really admire your determination.",
+                "word": "admire"
+            },
+            "zh": {
+                "sentence": "我真的很欽佩你的決心。",
+                "sentence_pinyin": "wo zhen de hen qin pei ni de jue xin",
+                "word": "欽佩",
+                "word_pinyin": "qin pei"
+            },
+            "th": {
+                "sentence": "ฉันชื่นชมในความมุ่งมั่นของคุณมาก",
+                "word": "ชื่นชม"
+            }
+        }
+    },
+    {
+        "word": "advice",
+        "zh": "建議；忠告",
+        "zh_pinyin": "jian yi; zhong gao",
+        "th": "คำแนะนำ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Thank you for your advice.",
+                "word": "advice"
+            },
+            "zh": {
+                "sentence": "謝謝你的建議。",
+                "sentence_pinyin": "xie xie ni de jian yi",
+                "word": "建議",
+                "word_pinyin": "jian yi"
+            },
+            "th": {
+                "sentence": "ขอบคุณสำหรับคำแนะนำของคุณ",
+                "word": "คำแนะนำ"
+            }
+        }
+    },
+    {
+        "word": "permanent",
+        "zh": "永久的；長期的",
+        "zh_pinyin": "yong jiu de; chang qi de",
+        "th": "ถาวร",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She finally got a permanent job.",
+                "word": "permanent"
+            },
+            "zh": {
+                "sentence": "她終於找到一份長期的工作。",
+                "sentence_pinyin": "ta zhong yu zhao dao yi fen chang qi de gong zuo",
+                "word": "永久的",
+                "word_pinyin": "yong jiu de"
+            },
+            "th": {
+                "sentence": "ในที่สุดเธอก็ได้งานที่ถาวรแล้ว",
+                "word": "ถาวร"
+            }
+        }
+    },
+    {
+        "word": "recognized",
+        "zh": "被認出；被承認",
+        "zh_pinyin": "bei ren chu; bei cheng ren",
+        "th": "ได้รับการยอมรับ",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She is a recognized expert in her field.",
+                "word": "recognized"
+            },
+            "zh": {
+                "sentence": "她是在自己領域裡被公認的專家。",
+                "sentence_pinyin": "ta shi zai zi ji ling yu li bei gong ren de zhuan jia",
+                "word": "被承認",
+                "word_pinyin": "bei cheng ren"
+            },
+            "th": {
+                "sentence": "เธอเป็นผู้เชี่ยวชาญที่ได้รับการยอมรับในสายงานของเธอ",
+                "word": "ได้รับการยอมรับ"
+            }
+        }
+    },
+    {
+        "word": "raise",
+        "zh": "加薪；提高",
+        "zh_pinyin": "jia xin; ti gao",
+        "th": "ขึ้นเงินเดือน",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "He got a raise after one year at the company.",
+                "word": "raise"
+            },
+            "zh": {
+                "sentence": "他在公司待了一年之後拿到了加薪。",
+                "sentence_pinyin": "ta zai gong si dai le yi nian zhi hou na dao le jia xin",
+                "word": "加薪",
+                "word_pinyin": "jia xin"
+            },
+            "th": {
+                "sentence": "เขาได้ขึ้นเงินเดือนหลังจากทำงานครบหนึ่งปี",
+                "word": "ขึ้นเงินเดือน"
+            }
+        }
+    },
+    {
+        "word": "achievements",
+        "zh": "成就；成果",
+        "zh_pinyin": "cheng jiu; cheng guo",
+        "th": "ความสำเร็จ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "You should be proud of your achievements.",
+                "word": "achievements"
+            },
+            "zh": {
+                "sentence": "你應該為自己的成就感到驕傲。",
+                "sentence_pinyin": "ni ying gai wei zi ji de cheng jiu gan dao jiao ao",
+                "word": "成就",
+                "word_pinyin": "cheng jiu"
+            },
+            "th": {
+                "sentence": "คุณควรภูมิใจกับความสำเร็จของตัวเอง",
+                "word": "ความสำเร็จ"
+            }
+        }
+    },
+    {
+        "word": "strength",
+        "zh": "力量；優點；長處",
+        "zh_pinyin": "li liang; you dian; chang chu",
+        "th": "จุดแข็ง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Knowing your own strength is important.",
+                "word": "strength"
+            },
+            "zh": {
+                "sentence": "認識自己的長處很重要。",
+                "sentence_pinyin": "ren shi zi ji de chang chu hen zhong yao",
+                "word": "長處",
+                "word_pinyin": "chang chu"
+            },
+            "th": {
+                "sentence": "การรู้จุดแข็งของตัวเองเป็นเรื่องสำคัญ",
+                "word": "จุดแข็ง"
+            }
+        }
+    },
+    {
+        "word": "triumph",
+        "zh": "勝利；重大成就",
+        "zh_pinyin": "sheng li; zhong da cheng jiu",
+        "th": "ชัยชนะ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Finishing the marathon was a personal triumph for her.",
+                "word": "triumph"
+            },
+            "zh": {
+                "sentence": "跑完全馬對她來說是一項個人的勝利。",
+                "sentence_pinyin": "pao wan quan ma dui ta lai shuo shi yi xiang ge ren de sheng li",
+                "word": "勝利",
+                "word_pinyin": "sheng li"
+            },
+            "th": {
+                "sentence": "การวิ่งมาราธอนจบเป็นชัยชนะส่วนตัวของเธอ",
+                "word": "ชัยชนะ"
+            }
+        }
+    },
+    {
+        "word": "curious",
+        "zh": "好奇的",
+        "zh_pinyin": "hao qi de",
+        "th": "ขี้สงสัย",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "I’m curious about your work.",
+                "word": "curious"
+            },
+            "zh": {
+                "sentence": "我對你的工作很好奇。",
+                "sentence_pinyin": "wo dui ni de gong zuo hen hao qi",
+                "word": "好奇的",
+                "word_pinyin": "hao qi de"
+            },
+            "th": {
+                "sentence": "ฉันรู้สึกอยากรู้อยากเห็นเกี่ยวกับงานของคุณ",
+                "word": "ขี้สงสัย"
+            }
+        }
+    },
+    {
+        "word": "assumed",
+        "zh": "以為；假定；想當然",
+        "zh_pinyin": "yi wei; jia ding; xiang dang ran",
+        "th": "คิดเอาเอง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I assumed you were busy, so I didn’t call.",
+                "word": "assumed"
+            },
+            "zh": {
+                "sentence": "我以為你很忙，所以就沒有打電話。",
+                "sentence_pinyin": "wo yi wei ni hen mang suo yi jiu mei you da dian hua",
+                "word": "以為",
+                "word_pinyin": "yi wei"
+            },
+            "th": {
+                "sentence": "ฉันคิดเอาเองว่าคุณยุ่งเลยไม่ได้โทรหา",
+                "word": "คิดเอาเอง"
+            }
+        }
+    },
+    {
+        "word": "privacy",
+        "zh": "隱私；隱私權",
+        "zh_pinyin": "yin si; yin si quan",
+        "th": "ความเป็นส่วนตัว",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "I respect your privacy.",
+                "word": "privacy"
+            },
+            "zh": {
+                "sentence": "我尊重你的隱私。",
+                "sentence_pinyin": "wo zun zhong ni de yin si",
+                "word": "隱私",
+                "word_pinyin": "yin si"
+            },
+            "th": {
+                "sentence": "ฉันเคารพในความเป็นส่วนตัวของคุณ",
+                "word": "ความเป็นส่วนตัว"
+            }
+        }
+    },
+    {
+        "word": "wonder",
+        "zh": "想知道；納悶",
+        "zh_pinyin": "xiang zhi dao; na men",
+        "th": "สงสัย",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I wonder what she is doing now.",
+                "word": "wonder"
+            },
+            "zh": {
+                "sentence": "我很好奇她現在在做什麼。",
+                "sentence_pinyin": "wo hen hao qi ta xian zai zai zuo shen me",
+                "word": "想知道",
+                "word_pinyin": "xiang zhi dao"
+            },
+            "th": {
+                "sentence": "ฉันสงสัยว่าเธอกำลังทำอะไรอยู่ตอนนี้",
+                "word": "สงสัย"
+            }
+        }
+    },
+    {
+        "word": "specifically",
+        "zh": "特別地；明確地",
+        "zh_pinyin": "te bie de; ming que de",
+        "th": "โดยเฉพาะเจาะจง",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I wasn’t talking about you specifically.",
+                "word": "specifically"
+            },
+            "zh": {
+                "sentence": "我並不是特別指你。",
+                "sentence_pinyin": "wo bing bu shi te bie zhi ni",
+                "word": "特別地",
+                "word_pinyin": "te bie de"
+            },
+            "th": {
+                "sentence": "ฉันไม่ได้หมายถึงคุณโดยเฉพาะเจาะจง",
+                "word": "โดยเฉพาะเจาะจง"
+            }
+        }
+    },
+    {
+        "word": "hired",
+        "zh": "被雇用；被錄用",
+        "zh_pinyin": "bei gu yong; bei lu yong",
+        "th": "ถูกจ้างงาน",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She was hired right after the interview.",
+                "word": "hired"
+            },
+            "zh": {
+                "sentence": "她在面試之後就被錄用了。",
+                "sentence_pinyin": "ta zai mian shi zhi hou jiu bei lu yong le",
+                "word": "被錄用",
+                "word_pinyin": "bei lu yong"
+            },
+            "th": {
+                "sentence": "เธอถูกจ้างงานทันทีหลังจากสัมภาษณ์",
+                "word": "ถูกจ้างงาน"
+            }
+        }
+    },
+    {
+        "word": "atmosphere",
+        "zh": "氣氛；氛圍",
+        "zh_pinyin": "qi fen; fen wei",
+        "th": "บรรยากาศ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "I like the cozy atmosphere of this café.",
+                "word": "atmosphere"
+            },
+            "zh": {
+                "sentence": "我很喜歡這家咖啡館的溫馨氣氛。",
+                "sentence_pinyin": "wo hen xi huan zhe jia ka fei guan de wen xin qi fen",
+                "word": "氣氛",
+                "word_pinyin": "qi fen"
+            },
+            "th": {
+                "sentence": "ฉันชอบบรรยากาศอบอุ่นของร้านกาแฟแห่งนี้",
+                "word": "บรรยากาศ"
+            }
+        }
     }
 ]
