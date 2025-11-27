@@ -1,5 +1,11 @@
 // flashcards.js
 // 由 index.html 移植的主程式
+// 已將原生的 SpeechSynthesis 替換為透過 Vercel Proxy 呼叫 Azure TTS API 的功能，以提高語音品質和發音準確度。
+
+// === Azure TTS API 設定 ===
+// 這是您部署在 Vercel 上的 Serverless Function 網址。
+// 前端所有語音請求都將發送到此處，由 Vercel 進行安全轉發。
+const VERCEL_TTS_ENDPOINT = 'https://tts-proxy-eight.vercel.app/api/speak'; 
 
 // === 1. 單字 JSON 資料：改為從外部 cards.json 載入 ===
 let cards = []; // 由 fetch('cards.json') 填入
@@ -145,51 +151,65 @@ if (wordListOffcanvasEl) {
     });
 }
 
-// === 6. 語音發音功能（使用 SpeechSynthesis） ===
-let voices = [];
+// === 6. 語音發音功能（已從 SpeechSynthesis 替換為 Vercel 雲端 API） ===
+// 刪除所有原生的 speechSynthesis 邏輯
 
-function loadVoices() {
-    if (!('speechSynthesis' in window)) return;
-    voices = window.speechSynthesis.getVoices();
-}
-
-if ('speechSynthesis' in window) {
-    loadVoices();
-    window.speechSynthesis.onvoiceschanged = loadVoices;
-}
-
-function getVoiceForLang(lang) {
-    if (!voices || !voices.length) return null;
-    const lowerLang = lang.toLowerCase();
-    // 優先完全匹配，其次前綴匹配
-    let voice =
-        voices.find((v) => v.lang.toLowerCase() === lowerLang) ||
-        voices.find((v) => v.lang.toLowerCase().startsWith(lowerLang));
-    return voice || null;
-}
-
-function speak(text, lang) {
-    if (!('speechSynthesis' in window)) {
-        alert('此瀏覽器不支援語音合成功能。');
-        return;
-    }
+/**
+ * 透過 Vercel Proxy 呼叫 Azure TTS API 進行語音合成與播放。
+ * @param {string} text 要朗讀的文本。
+ * @param {string} lang 語系 (例如 'en-US', 'zh-TW')，用於 Vercel 選擇語音。
+ * @param {HTMLElement} [targetButton=null] 觸發發音的按鈕元素，用於播放期間禁用。
+ */
+async function speakAzure(text, lang, targetButton = null) {
     if (!text) {
         alert('目前沒有可朗讀的內容。');
         return;
     }
+    
+    // 播放前禁用按鈕，防止重複點擊，並在發生錯誤時提供視覺回饋
+    if (targetButton) targetButton.disabled = true;
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang;
+    try {
+        const response = await fetch(VERCEL_TTS_ENDPOINT, {
+            method: 'POST',
+            body: JSON.stringify({ 
+                text: text, 
+                lang: lang // 將語系 (例如 'zh-TW') 傳遞給 Vercel Function
+            }), 
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        });
 
-    // 試著選擇適合語系的 voice
-    const voice = getVoiceForLang(lang);
-    if (voice) {
-        utterance.voice = voice;
+        if (!response.ok) {
+            // 處理非 200 的狀態碼，並嘗試獲取 Vercel 傳回的錯誤訊息
+            const errorText = await response.text();
+            throw new Error(`TTS API failed (${response.status}): ${errorText}`);
+        }
+
+        // 接收 Vercel 回傳的 MP3 檔案 (Blob)
+        const audioBlob = await response.blob(); 
+        const audioUrl = URL.createObjectURL(audioBlob);
+        const audio = new Audio(audioUrl);
+        
+        audio.play();
+
+        // 播放完畢或發生錯誤時，重新啟用按鈕並清理物件
+        const cleanup = () => {
+            if (targetButton) targetButton.disabled = false;
+            URL.revokeObjectURL(audioUrl); // 釋放記憶體資源
+        };
+        
+        audio.onended = cleanup;
+        audio.onerror = cleanup;
+
+    } catch (error) {
+        console.error('語音服務失敗:', error);
+        alert(`語音服務錯誤: ${error.message}. 請檢查 Vercel logs 或網路連線。`);
+        if (targetButton) targetButton.disabled = false;
     }
-
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utterance);
 }
+
 
 // === 7. 導航邏輯（上一張 / 下一張） ===
 function gotoPrev() {
@@ -204,7 +224,7 @@ function gotoNext() {
     renderCard();
 }
 
-// === 8. 發音按鈕 ===
+// === 8. 發音按鈕（使用 speakAzure） ===
 function bindEvents() {
     // 桌機版按鈕
     prevBtn.addEventListener('click', gotoPrev);
@@ -216,46 +236,47 @@ function bindEvents() {
         nextBtnMobile.addEventListener('click', gotoNext);
     }
 
-    // 英文：單字 / 句子
-    speakEnWordBtn.addEventListener('click', () => {
+    // 英文：單字 / 句子 (使用 'en-US' 語系)
+    speakEnWordBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
-        speak(card.word, 'en-US');
+        // 傳遞按鈕元素 e.currentTarget 讓函式可以控制啟用/禁用
+        speakAzure(card.word, 'en-US', e.currentTarget); 
     });
 
-    speakEnSentenceBtn.addEventListener('click', () => {
+    speakEnSentenceBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
         const textToSpeak = card.examples?.en?.sentence || card.word;
-        speak(textToSpeak, 'en-US');
+        speakAzure(textToSpeak, 'en-US', e.currentTarget);
     });
 
-    // 中文：單字 / 句子
-    speakZhWordBtn.addEventListener('click', () => {
+    // 中文：單字 / 句子 (使用 'zh-TW' 語系，推薦發音最自然的 Azure 台灣中文)
+    speakZhWordBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
         const textToSpeak =
             card.examples?.zh?.word || card.zh || '';
-        speak(textToSpeak, 'zh-CN');
+        speakAzure(textToSpeak, 'zh-TW', e.currentTarget); 
     });
 
-    speakZhSentenceBtn.addEventListener('click', () => {
+    speakZhSentenceBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
         const textToSpeak =
             card.examples?.zh?.sentence || card.zh || '';
-        speak(textToSpeak, 'zh-CN');
+        speakAzure(textToSpeak, 'zh-TW', e.currentTarget); 
     });
 
-    // 泰文：單字 / 句子
-    speakThWordBtn.addEventListener('click', () => {
+    // 泰文：單字 / 句子 (使用 'th-TH' 語系)
+    speakThWordBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
         const textToSpeak =
             card.examples?.th?.word || card.th || '';
-        speak(textToSpeak, 'th-TH');
+        speakAzure(textToSpeak, 'th-TH', e.currentTarget);
     });
 
-    speakThSentenceBtn.addEventListener('click', () => {
+    speakThSentenceBtn.addEventListener('click', (e) => {
         const card = cards[currentIndex];
         const textToSpeak =
             card.examples?.th?.sentence || card.th || '';
-        speak(textToSpeak, 'th-TH');
+        speakAzure(textToSpeak, 'th-TH', e.currentTarget);
     });
 }
 
