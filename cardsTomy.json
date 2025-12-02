@@ -1471,5 +1471,282 @@
                 "word": "บรรยากาศ"
             }
         }
+    },
+
+    {
+        "word": "specific",
+        "zh": "特定的；明確的",
+        "zh_pinyin": "te ding de; ming que de",
+        "th": "เฉพาะเจาะจง",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Can you be more specific about the problem?",
+                "word": "specific"
+            },
+            "zh": {
+                "sentence": "你能更明確地說一下這個問題嗎？",
+                "sentence_pinyin": "ni neng geng ming que de shuo yi xia zhe ge wen ti ma",
+                "word": "明確的",
+                "word_pinyin": "ming que de"
+            },
+            "th": {
+                "sentence": "คุณช่วยอธิบายปัญหาให้เฉพาะเจาะจงมากขึ้นได้ไหม",
+                "word": "เฉพาะเจาะจง"
+            }
+        }
+    },
+    {
+        "word": "develop",
+        "zh": "發展；開發",
+        "zh_pinyin": "fa zhan; kai fa",
+        "th": "พัฒนา",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "They plan to develop a new application.",
+                "word": "develop"
+            },
+            "zh": {
+                "sentence": "他們計劃開發一個新的應用程式。",
+                "sentence_pinyin": "ta men ji hua kai fa yi ge xin de ying yong cheng shi",
+                "word": "開發",
+                "word_pinyin": "kai fa"
+            },
+            "th": {
+                "sentence": "พวกเขาวางแผนที่จะพัฒนาแอปพลิเคชันใหม่",
+                "word": "พัฒนา"
+            }
+        }
+    },
+    {
+        "word": "service",
+        "zh": "服務",
+        "zh_pinyin": "fu wu",
+        "th": "การบริการ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "The restaurant is known for its excellent service.",
+                "word": "service"
+            },
+            "zh": {
+                "sentence": "這家餐廳以優良的服務聞名。",
+                "sentence_pinyin": "zhe jia can ting yi you liang de fu wu wen ming",
+                "word": "服務",
+                "word_pinyin": "fu wu"
+            },
+            "th": {
+                "sentence": "ร้านอาหารนี้มีชื่อเสียงเรื่องการบริการที่ยอดเยี่ยม",
+                "word": "การบริการ"
+            }
+        }
+    },
+    {
+        "word": "whole",
+        "zh": "整個；全部",
+        "zh_pinyin": "zheng ge; quan bu",
+        "th": "ทั้งหมด",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "I spent the whole day working.",
+                "word": "whole"
+            },
+            "zh": {
+                "sentence": "我整天都在工作。",
+                "sentence_pinyin": "wo zheng tian dou zai gong zuo",
+                "word": "整個",
+                "word_pinyin": "zheng ge"
+            },
+            "th": {
+                "sentence": "ฉันใช้เวลาทั้งวันไปกับการทำงาน",
+                "word": "ทั้งหมด"
+            }
+        }
+    },
+    {
+        "word": "correct",
+        "zh": "正確的",
+        "zh_pinyin": "zheng que de",
+        "th": "ถูกต้อง",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Your answer is correct.",
+                "word": "correct"
+            },
+            "zh": {
+                "sentence": "你的回答是正確的。",
+                "sentence_pinyin": "ni de hui da shi zheng que de",
+                "word": "正確的",
+                "word_pinyin": "zheng que de"
+            },
+            "th": {
+                "sentence": "คำตอบของคุณถูกต้อง",
+                "word": "ถูกต้อง"
+            }
+        }
+    },
+    {
+        "word": "across",
+        "zh": "橫過；穿過",
+        "zh_pinyin": "heng guo; chuan guo",
+        "th": "ข้าม; ทั่ว",
+        "type": "prep.",
+        "examples": {
+            "en": {
+                "sentence": "She walked across the street.",
+                "word": "across"
+            },
+            "zh": {
+                "sentence": "她走過了街道。",
+                "sentence_pinyin": "ta zou guo le jie dao",
+                "word": "橫過",
+                "word_pinyin": "heng guo"
+            },
+            "th": {
+                "sentence": "เธอเดินข้ามถนน",
+                "word": "ข้าม"
+            }
+        }
+    },
+    {
+        "word": "regret",
+        "zh": "後悔；遺憾",
+        "zh_pinyin": "hou hui; yi han",
+        "th": "เสียใจ; เสียดาย",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I regret staying up too late last night.",
+                "word": "regret"
+            },
+            "zh": {
+                "sentence": "我後悔昨晚睡得太晚。",
+                "sentence_pinyin": "wo hou hui zuo wan shui de tai wan",
+                "word": "後悔",
+                "word_pinyin": "hou hui"
+            },
+            "th": {
+                "sentence": "ฉันเสียใจที่นอนดึกเกินไปเมื่อคืน",
+                "word": "เสียใจ"
+            }
+        }
+    },
+    {
+        "word": "mentally",
+        "zh": "心理上；精神上",
+        "zh_pinyin": "xin li shang; jing shen shang",
+        "th": "ทางจิตใจ",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I’m mentally exhausted after today’s meeting.",
+                "word": "mentally"
+            },
+            "zh": {
+                "sentence": "今天的會議讓我在心理上感到很疲憊。",
+                "sentence_pinyin": "jin tian de hui yi rang wo zai xin li shang gan dao hen pi bei",
+                "word": "心理上",
+                "word_pinyin": "xin li shang"
+            },
+            "th": {
+                "sentence": "การประชุมวันนี้ทำให้ฉันเหนื่อยล้าทางจิตใจ",
+                "word": "ทางจิตใจ"
+            }
+        }
+    },
+    {
+        "word": "demanding",
+        "zh": "要求高的；費力的",
+        "zh_pinyin": "yao qiu gao de; fei li de",
+        "th": "ต้องใช้ความพยายามมาก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "His job is extremely demanding.",
+                "word": "demanding"
+            },
+            "zh": {
+                "sentence": "他的工作極為辛苦，需要付出很多努力。",
+                "sentence_pinyin": "ta de gong zuo ji wei xin ku xu yao fu chu hen duo nu li",
+                "word": "費力的",
+                "word_pinyin": "fei li de"
+            },
+            "th": {
+                "sentence": "งานของเขาต้องใช้ความพยายามมาก",
+                "word": "ต้องใช้ความพยายามมาก"
+            }
+        }
+    },
+    {
+        "word": "coordinate",
+        "zh": "協調；調整",
+        "zh_pinyin": "xie tiao; tiao zheng",
+        "th": "ประสานงาน",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "We need to coordinate the schedule with the team.",
+                "word": "coordinate"
+            },
+            "zh": {
+                "sentence": "我們需要和團隊協調時間表。",
+                "sentence_pinyin": "wo men xu yao he tuan dui xie tiao shi jian biao",
+                "word": "協調",
+                "word_pinyin": "xie tiao"
+            },
+            "th": {
+                "sentence": "เราต้องประสานงานตารางเวลากับทีม",
+                "word": "ประสานงาน"
+            }
+        }
+    },
+    {
+        "word": "drained",
+        "zh": "筋疲力盡的；耗盡的",
+        "zh_pinyin": "jin pi li jin de; hao jin de",
+        "th": "หมดแรง",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "After work, I felt completely drained.",
+                "word": "drained"
+            },
+            "zh": {
+                "sentence": "下班後我感到完全筋疲力盡。",
+                "sentence_pinyin": "xia ban hou wo gan dao wan quan jin pi li jin",
+                "word": "筋疲力盡",
+                "word_pinyin": "jin pi li jin"
+            },
+            "th": {
+                "sentence": "หลังเลิกงานฉันรู้สึกหมดแรงอย่างมาก",
+                "word": "หมดแรง"
+            }
+        }
+    },
+    {
+        "word": "noon",
+        "zh": "中午",
+        "zh_pinyin": "zhong wu",
+        "th": "เที่ยง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Let’s meet again at noon.",
+                "word": "noon"
+            },
+            "zh": {
+                "sentence": "我們中午再見面吧。",
+                "sentence_pinyin": "wo men zhong wu zai jian mian ba",
+                "word": "中午",
+                "word_pinyin": "zhong wu"
+            },
+            "th": {
+                "sentence": "เราเจอกันอีกครั้งตอนเที่ยงนะ",
+                "word": "เที่ยง"
+            }
+        }
     }
 ]

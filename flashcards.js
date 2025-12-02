@@ -224,6 +224,26 @@ function gotoNext() {
     renderCard();
 }
 
+/**
+ * 跳轉到隨機選擇的一張單字卡
+ */
+function gotoRandom() {
+    if (!cards.length) return;
+    
+    // 產生一個新的隨機索引
+    const newIndex = Math.floor(Math.random() * cards.length);
+    
+    // 避免重複顯示當前的卡片，除非只有一張卡
+    if (cards.length > 1 && newIndex === currentIndex) {
+        // 如果隨機到當前索引，則重新呼叫一次，或簡單地移動到下一個索引
+        currentIndex = (newIndex + 1) % cards.length;
+    } else {
+        currentIndex = newIndex;
+    }
+    
+    renderCard();
+}
+
 // === 8. 發音按鈕（使用 speakAzure） ===
 function bindEvents() {
     // 桌機版按鈕
@@ -235,6 +255,11 @@ function bindEvents() {
         prevBtnMobile.addEventListener('click', gotoPrev);
         nextBtnMobile.addEventListener('click', gotoNext);
     }
+
+    // 🚨 新增：隨機按鈕綁定
+    if (randomBtn) {
+        randomBtn.addEventListener('click', gotoRandom);
+    }    
 
     // 英文：單字 / 句子 (使用 'en-US' 語系)
     speakEnWordBtn.addEventListener('click', (e) => {
