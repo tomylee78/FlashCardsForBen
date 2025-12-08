@@ -1748,5 +1748,904 @@
                 "word": "เที่ยง"
             }
         }
+    },
+
+    {
+        "word": "motivation",
+        "zh": "動力；激勵",
+        "zh_pinyin": "dong li; ji li",
+        "th": "แรงจูงใจ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Her motivation to improve is truly inspiring.",
+                "word": "motivation"
+            },
+            "zh": {
+                "sentence": "她努力進步的動力真的很鼓舞人心。",
+                "sentence_pinyin": "ta nu li jin bu de dong li zhen de hen gu wu ren xin",
+                "word": "動力",
+                "word_pinyin": "dong li"
+            },
+            "th": {
+                "sentence": "แรงจูงใจของเธอในการพัฒนาตัวเองน่าชื่นชมมาก",
+                "word": "แรงจูงใจ"
+            }
+        }
+    },
+    {
+        "word": "positive",
+        "zh": "正面的；積極的",
+        "zh_pinyin": "zheng mian de; ji ji de",
+        "th": "เชิงบวก; มองโลกในแง่ดี",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Try to stay positive even during difficult times.",
+                "word": "positive"
+            },
+            "zh": {
+                "sentence": "即使在困難的時候也要保持正面。",
+                "sentence_pinyin": "ji shi zai kun nan de shi hou ye yao bao chi zheng mian",
+                "word": "正面的",
+                "word_pinyin": "zheng mian de"
+            },
+            "th": {
+                "sentence": "พยายามมองโลกในแง่ดีแม้ในช่วงเวลาที่ยากลำบาก",
+                "word": "มองโลกในแง่ดี"
+            }
+        }
+    },
+    {
+        "word": "positive feedback",
+        "zh": "正向回饋；正面反饋",
+        "zh_pinyin": "zheng xiang hui kui; zheng mian fan kui",
+        "th": "คำชมเชย; ข้อเสนอแนะเชิงบวก",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I received a lot of positive feedback from my teammates.",
+                "word": "positive feedback"
+            },
+            "zh": {
+                "sentence": "我收到了許多來自隊友的正向回饋。",
+                "sentence_pinyin": "wo shou dao le xu duo lai zi dui you de zheng xiang hui kui",
+                "word": "正向回饋",
+                "word_pinyin": "zheng xiang hui kui"
+            },
+            "th": {
+                "sentence": "ฉันได้รับคำชมเชยจากเพื่อนร่วมทีมมากมาย",
+                "word": "คำชมเชย"
+            }
+        }
+    },
+    {
+        "word": "anxious",
+        "zh": "焦慮的；擔心的",
+        "zh_pinyin": "jiao lv de; dan xin de",
+        "th": "กังวล",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She felt anxious before the interview.",
+                "word": "anxious"
+            },
+            "zh": {
+                "sentence": "她在面試之前感到很焦慮。",
+                "sentence_pinyin": "ta zai mian shi zhi qian gan dao hen jiao lv",
+                "word": "焦慮的",
+                "word_pinyin": "jiao lv de"
+            },
+            "th": {
+                "sentence": "เธอรู้สึกกังวลก่อนการสัมภาษณ์",
+                "word": "กังวล"
+            }
+        }
+    },
+    {
+        "word": "doubts",
+        "zh": "疑慮；懷疑",
+        "zh_pinyin": "yi lv; huai yi",
+        "th": "ความสงสัย",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "He had doubts about whether he made the right decision.",
+                "word": "doubts"
+            },
+            "zh": {
+                "sentence": "他對自己是否做出正確的決定感到疑慮。",
+                "sentence_pinyin": "ta dui zi ji shi fou zuo chu zheng que de jue ding gan dao yi lv",
+                "word": "疑慮",
+                "word_pinyin": "yi lv"
+            },
+            "th": {
+                "sentence": "เขามีความสงสัยว่าเขาตัดสินใจถูกหรือไม่",
+                "word": "ความสงสัย"
+            }
+        }
+    },
+    {
+        "word": "outcome",
+        "zh": "結果；後果",
+        "zh_pinyin": "jie guo; hou guo",
+        "th": "ผลลัพธ์",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "The outcome of the project was better than expected.",
+                "word": "outcome"
+            },
+            "zh": {
+                "sentence": "這個專案的結果比預期還要好。",
+                "sentence_pinyin": "zhe ge zhuan an de jie guo bi yu qi hai yao hao",
+                "word": "結果",
+                "word_pinyin": "jie guo"
+            },
+            "th": {
+                "sentence": "ผลลัพธ์ของโปรเจกต์ดีกว่าที่คาดไว้",
+                "word": "ผลลัพธ์"
+            }
+        }
+    },
+
+    {
+        "word": "in the past",
+        "zh": "在過去；以前",
+        "zh_pinyin": "zai guo qu; yi qian",
+        "th": "ในอดีต",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I used to drink a lot in the past.",
+                "word": "in the past"
+            },
+            "zh": {
+                "sentence": "在過去我常常喝很多酒。",
+                "sentence_pinyin": "zai guo qu wo chang chang he hen duo jiu",
+                "word": "在過去",
+                "word_pinyin": "zai guo qu"
+            },
+            "th": {
+                "sentence": "ในอดีตฉันเคยดื่มเยอะมาก",
+                "word": "ในอดีต"
+            }
+        }
+    },
+    {
+        "word": "smell",
+        "zh": "聞；氣味",
+        "zh_pinyin": "wen; qi wei",
+        "th": "กลิ่น; ดม",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I can smell coffee from the kitchen.",
+                "word": "smell"
+            },
+            "zh": {
+                "sentence": "我能聞到廚房飄來的咖啡香。",
+                "sentence_pinyin": "wo neng wen dao chu fang piao lai de ka fei xiang",
+                "word": "聞",
+                "word_pinyin": "wen"
+            },
+            "th": {
+                "sentence": "ฉันได้กลิ่นกาแฟจากในครัว",
+                "word": "กลิ่น"
+            }
+        }
+    },
+    {
+        "word": "bitter",
+        "zh": "苦的",
+        "zh_pinyin": "ku de",
+        "th": "ขม",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "This medicine tastes very bitter.",
+                "word": "bitter"
+            },
+            "zh": {
+                "sentence": "這個藥嚐起來非常苦。",
+                "sentence_pinyin": "zhe ge yao chang qi lai fei chang ku",
+                "word": "苦的",
+                "word_pinyin": "ku de"
+            },
+            "th": {
+                "sentence": "ยาตัวนี้มีรสขมมาก",
+                "word": "ขม"
+            }
+        }
+    },
+    {
+        "word": "found out",
+        "zh": "發現；得知",
+        "zh_pinyin": "fa xian; de zhi",
+        "th": "รู้ความจริง; พบว่า",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I found out the truth yesterday.",
+                "word": "found out"
+            },
+            "zh": {
+                "sentence": "我昨天才發現真相。",
+                "sentence_pinyin": "wo zuo tian cai fa xian zhen xiang",
+                "word": "發現",
+                "word_pinyin": "fa xian"
+            },
+            "th": {
+                "sentence": "เมื่อวานฉันเพิ่งรู้ความจริง",
+                "word": "รู้ความจริง"
+            }
+        }
+    },
+    {
+        "word": "boost",
+        "zh": "提升；增加",
+        "zh_pinyin": "ti sheng; zeng jia",
+        "th": "เพิ่ม; ส่งเสริม",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "Drinking water can boost your energy.",
+                "word": "boost"
+            },
+            "zh": {
+                "sentence": "喝水可以提升你的能量。",
+                "sentence_pinyin": "he shui ke yi ti sheng ni de neng liang",
+                "word": "提升",
+                "word_pinyin": "ti sheng"
+            },
+            "th": {
+                "sentence": "การดื่มน้ำช่วยเพิ่มพลังงานของคุณได้",
+                "word": "เพิ่ม"
+            }
+        }
+    },
+    {
+        "word": "especially",
+        "zh": "尤其；特別",
+        "zh_pinyin": "you qi; te bie",
+        "th": "โดยเฉพาะ",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I love coffee, especially iced coffee.",
+                "word": "especially"
+            },
+            "zh": {
+                "sentence": "我喜歡咖啡，尤其是冰咖啡。",
+                "sentence_pinyin": "wo xi huan ka fei you qi shi bing ka fei",
+                "word": "尤其",
+                "word_pinyin": "you qi"
+            },
+            "th": {
+                "sentence": "ฉันชอบกาแฟ โดยเฉพาะกาแฟเย็น",
+                "word": "โดยเฉพาะ"
+            }
+        }
+    },
+    {
+        "word": "intense",
+        "zh": "強烈的；激烈的",
+        "zh_pinyin": "qiang lie de; ji lie de",
+        "th": "รุนแรง",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "The smell was so intense that it filled the whole room.",
+                "word": "intense"
+            },
+            "zh": {
+                "sentence": "味道強烈到充滿整個房間。",
+                "sentence_pinyin": "wei dao qiang lie dao chong man zheng ge fang jian",
+                "word": "強烈的",
+                "word_pinyin": "qiang lie de"
+            },
+            "th": {
+                "sentence": "กลิ่นแรงมากจนอบอวลทั่วทั้งห้อง",
+                "word": "รุนแรง"
+            }
+        }
+    },
+    {
+        "word": "selfie",
+        "zh": "自拍",
+        "zh_pinyin": "zi pai",
+        "th": "เซลฟี่",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "She took a selfie at the café.",
+                "word": "selfie"
+            },
+            "zh": {
+                "sentence": "她在咖啡館拍了一張自拍。",
+                "sentence_pinyin": "ta zai ka fei guan pai le yi zhang zi pai",
+                "word": "自拍",
+                "word_pinyin": "zi pai"
+            },
+            "th": {
+                "sentence": "เธอถ่ายเซลฟี่ที่ร้านกาแฟ",
+                "word": "เซลฟี่"
+            }
+        }
+    },
+    {
+        "word": "directly",
+        "zh": "直接地",
+        "zh_pinyin": "zhi jie de",
+        "th": "โดยตรง",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "Please contact me directly if you need anything.",
+                "word": "directly"
+            },
+            "zh": {
+                "sentence": "如果你需要任何幫助，請直接聯繫我。",
+                "sentence_pinyin": "ru guo ni xu yao ren he bang zhu qing zhi jie lian xi wo",
+                "word": "直接地",
+                "word_pinyin": "zhi jie de"
+            },
+            "th": {
+                "sentence": "ถ้าคุณต้องการอะไร โปรดติดต่อฉันโดยตรง",
+                "word": "โดยตรง"
+            }
+        }
+    },
+    {
+        "word": "caramel",
+        "zh": "焦糖",
+        "zh_pinyin": "jiao tang",
+        "th": "คาราเมล",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "I ordered a caramel latte today.",
+                "word": "caramel"
+            },
+            "zh": {
+                "sentence": "我今天點了焦糖拿鐵。",
+                "sentence_pinyin": "wo jin tian dian le jiao tang na tie",
+                "word": "焦糖",
+                "word_pinyin": "jiao tang"
+            },
+            "th": {
+                "sentence": "วันนี้ฉันสั่งคาราเมลลาเต้",
+                "word": "คาราเมล"
+            }
+        }
+    },
+    {
+        "word": "used to",
+        "zh": "過去常常；以前習慣",
+        "zh_pinyin": "guo qu chang chang; yi qian xi guan",
+        "th": "เคย; เคยชิน",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I used to stay up very late.",
+                "word": "used to"
+            },
+            "zh": {
+                "sentence": "我過去常常熬夜到很晚。",
+                "sentence_pinyin": "wo guo qu chang chang ao ye dao hen wan",
+                "word": "過去常常",
+                "word_pinyin": "guo qu chang chang"
+            },
+            "th": {
+                "sentence": "เมื่อก่อนฉันมักจะนอนดึกมาก",
+                "word": "เคย"
+            }
+        }
+    },
+    {
+        "word": "tastes",
+        "zh": "味道；嚐起來",
+        "zh_pinyin": "wei dao; chang qi lai",
+        "th": "รสชาติ",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "This soup tastes really good.",
+                "word": "tastes"
+            },
+            "zh": {
+                "sentence": "這碗湯嚐起來非常好喝。",
+                "sentence_pinyin": "zhe wan tang chang qi lai fei chang hao he",
+                "word": "嚐起來",
+                "word_pinyin": "chang qi lai"
+            },
+            "th": {
+                "sentence": "ซุปนี้มีรสชาติอร่อยมาก",
+                "word": "รสชาติ"
+            }
+        }
+    },
+    {
+        "word": "unpleasant",
+        "zh": "令人不悅的；不舒服的",
+        "zh_pinyin": "ling ren bu yue de; bu shu fu de",
+        "th": "ไม่น่าพอใจ",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "The smell was unpleasant and strong.",
+                "word": "unpleasant"
+            },
+            "zh": {
+                "sentence": "味道既不舒服又很刺鼻。",
+                "sentence_pinyin": "wei dao ji bu shu fu you hen ci bi",
+                "word": "不舒服的",
+                "word_pinyin": "bu shu fu de"
+            },
+            "th": {
+                "sentence": "กลิ่นนั้นไม่น่าพอใจและแรงมาก",
+                "word": "ไม่น่าพอใจ"
+            }
+        }
+    },
+    {
+        "word": "deep",
+        "zh": "深的",
+        "zh_pinyin": "shen de",
+        "th": "ลึก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Take a deep breath and calm down.",
+                "word": "deep"
+            },
+            "zh": {
+                "sentence": "深呼吸一下，冷靜下來。",
+                "sentence_pinyin": "shen hu xi yi xia leng jing xia lai",
+                "word": "深的",
+                "word_pinyin": "shen de"
+            },
+            "th": {
+                "sentence": "หายใจเข้าลึก ๆ แล้วใจเย็นลง",
+                "word": "ลึก"
+            }
+        }
+    },
+    {
+        "word": "have been",
+        "zh": "一直；已經",
+        "zh_pinyin": "yi zhi; yi jing",
+        "th": "ได้…มาโดยตลอด; เคย",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I have been very busy lately.",
+                "word": "have been"
+            },
+            "zh": {
+                "sentence": "我最近一直很忙。",
+                "sentence_pinyin": "wo zui jin yi zhi hen mang",
+                "word": "一直",
+                "word_pinyin": "yi zhi"
+            },
+            "th": {
+                "sentence": "ช่วงนี้ฉันยุ่งมาตลอด",
+                "word": "ได้…มาโดยตลอด"
+            }
+        }
+    },
+    {
+        "word": "strictly",
+        "zh": "嚴格地",
+        "zh_pinyin": "yan ge de",
+        "th": "อย่างเข้มงวด",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "You must follow the rules strictly.",
+                "word": "strictly"
+            },
+            "zh": {
+                "sentence": "你必須嚴格遵守規定。",
+                "sentence_pinyin": "ni bi xu yan ge zun shou gui ding",
+                "word": "嚴格地",
+                "word_pinyin": "yan ge de"
+            },
+            "th": {
+                "sentence": "คุณต้องปฏิบัติตามกฎอย่างเข้มงวด",
+                "word": "อย่างเข้มงวด"
+            }
+        }
+    },
+    {
+        "word": "consider",
+        "zh": "考慮；斟酌",
+        "zh_pinyin": "kao lv; zhen zhuo",
+        "th": "พิจารณา",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "You should consider taking a break.",
+                "word": "consider"
+            },
+            "zh": {
+                "sentence": "你應該考慮休息一下。",
+                "sentence_pinyin": "ni ying gai kao lv xiu xi yi xia",
+                "word": "考慮",
+                "word_pinyin": "kao lv"
+            },
+            "th": {
+                "sentence": "คุณควรพิจารณาหยุดพักบ้าง",
+                "word": "พิจารณา"
+            }
+        }
+    },
+    {
+        "word": "realize",
+        "zh": "意識到；明白",
+        "zh_pinyin": "yi shi dao; ming bai",
+        "th": "ตระหนัก; รู้ตัว",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I didn’t realize it was so late.",
+                "word": "realize"
+            },
+            "zh": {
+                "sentence": "我沒有意識到已經這麼晚了。",
+                "sentence_pinyin": "wo mei you yi shi dao yi jing zhe me wan le",
+                "word": "意識到",
+                "word_pinyin": "yi shi dao"
+            },
+            "th": {
+                "sentence": "ฉันไม่รู้ตัวเลยว่ามันดึกมากแล้ว",
+                "word": "รู้ตัว"
+            }
+        }
+    },
+    {
+        "word": "upset",
+        "zh": "生氣的；心煩的",
+        "zh_pinyin": "sheng qi de; xin fan de",
+        "th": "อารมณ์เสีย; ไม่สบายใจ",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "She was upset after hearing the news.",
+                "word": "upset"
+            },
+            "zh": {
+                "sentence": "聽到這個消息後，她很心煩。",
+                "sentence_pinyin": "ting dao zhe ge xiao xi hou ta hen xin fan",
+                "word": "心煩的",
+                "word_pinyin": "xin fan de"
+            },
+            "th": {
+                "sentence": "หลังจากได้ยินข่าวนั้น เธอก็อารมณ์เสียมาก",
+                "word": "อารมณ์เสีย"
+            }
+        }
+    },
+    {
+        "word": "running out of time",
+        "zh": "時間不夠；快沒時間了",
+        "zh_pinyin": "shi jian bu gou; kuai mei shi jian le",
+        "th": "เวลาใกล้หมด",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "We are running out of time for the meeting.",
+                "word": "running out of time"
+            },
+            "zh": {
+                "sentence": "我們的會議快沒有時間了。",
+                "sentence_pinyin": "wo men de hui yi kuai mei you shi jian le",
+                "word": "快沒時間了",
+                "word_pinyin": "kuai mei shi jian le"
+            },
+            "th": {
+                "sentence": "เวลาประชุมของเรากำลังจะหมดแล้ว",
+                "word": "เวลาใกล้หมด"
+            }
+        }
+    },
+    {
+        "word": "swearing",
+        "zh": "說髒話；罵人",
+        "zh_pinyin": "shuo zang hua; ma ren",
+        "th": "ด่า; พูดคำหยาบ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Swearing at work is not acceptable.",
+                "word": "swearing"
+            },
+            "zh": {
+                "sentence": "在工作場合罵人是不被接受的。",
+                "sentence_pinyin": "zai gong zuo chang he ma ren shi bu bei jie shou de",
+                "word": "罵人",
+                "word_pinyin": "ma ren"
+            },
+            "th": {
+                "sentence": "การด่าในที่ทำงานเป็นสิ่งที่ไม่เหมาะสม",
+                "word": "ด่า"
+            }
+        }
+    },
+    {
+        "word": "in a bad mood",
+        "zh": "心情不好",
+        "zh_pinyin": "xin qing bu hao",
+        "th": "อารมณ์ไม่ดี",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "She was in a bad mood all morning.",
+                "word": "in a bad mood"
+            },
+            "zh": {
+                "sentence": "她一整個早上心情都不好。",
+                "sentence_pinyin": "ta yi zheng ge zao shang xin qing dou bu hao",
+                "word": "心情不好",
+                "word_pinyin": "xin qing bu hao"
+            },
+            "th": {
+                "sentence": "เธออารมณ์ไม่ดีตลอดทั้งเช้า",
+                "word": "อารมณ์ไม่ดี"
+            }
+        }
+    },
+    {
+        "word": "interferes",
+        "zh": "干擾；妨礙",
+        "zh_pinyin": "gan rao; fang ai",
+        "th": "รบกวน; แทรกแซง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "Lack of sleep interferes with your focus.",
+                "word": "interferes"
+            },
+            "zh": {
+                "sentence": "睡眠不足會干擾你的專注力。",
+                "sentence_pinyin": "shui mian bu zu hui gan rao ni de zhuan zhu li",
+                "word": "干擾",
+                "word_pinyin": "gan rao"
+            },
+            "th": {
+                "sentence": "การนอนน้อยรบกวนสมาธิของคุณ",
+                "word": "รบกวน"
+            }
+        }
+    },
+    {
+        "word": "hectic",
+        "zh": "忙亂的；繁忙的",
+        "zh_pinyin": "mang luan de; fan mang de",
+        "th": "วุ่นวาย",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "My schedule has been really hectic lately.",
+                "word": "hectic"
+            },
+            "zh": {
+                "sentence": "我最近的行程非常忙亂。",
+                "sentence_pinyin": "wo zui jin de xing cheng fei chang mang luan",
+                "word": "忙亂的",
+                "word_pinyin": "mang luan de"
+            },
+            "th": {
+                "sentence": "ช่วงนี้ตารางงานของฉันวุ่นวายมาก",
+                "word": "วุ่นวาย"
+            }
+        }
+    },
+    {
+        "word": "tough",
+        "zh": "艱難的；堅強的",
+        "zh_pinyin": "jian nan de; jian qiang de",
+        "th": "ยากลำบาก; เข้มแข็ง",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "Life can be tough, but you are tougher.",
+                "word": "tough"
+            },
+            "zh": {
+                "sentence": "生活可能很艱難，但你更堅強。",
+                "sentence_pinyin": "sheng huo ke neng hen jian nan dan ni geng jian qiang",
+                "word": "艱難的",
+                "word_pinyin": "jian nan de"
+            },
+            "th": {
+                "sentence": "ชีวิตอาจยากลำบาก แต่คุณเข้มแข็งกว่า",
+                "word": "ยากลำบาก"
+            }
+        }
+    },
+    {
+        "word": "period",
+        "zh": "時期；期間；月經",
+        "zh_pinyin": "shi qi; qi jian; yue jing",
+        "th": "ช่วงเวลา; ประจำเดือน",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "This period of my life has been very meaningful.",
+                "word": "period"
+            },
+            "zh": {
+                "sentence": "我人生的這段時期非常有意義。",
+                "sentence_pinyin": "wo ren sheng de zhe duan shi qi fei chang you yi yi",
+                "word": "時期",
+                "word_pinyin": "shi qi"
+            },
+            "th": {
+                "sentence": "ช่วงเวลานี้ในชีวิตของฉันมีความหมายมาก",
+                "word": "ช่วงเวลา"
+            }
+        }
+    },
+    {
+        "word": "determination",
+        "zh": "決心；毅力",
+        "zh_pinyin": "jue xin; yi li",
+        "th": "ความมุ่งมั่น",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Her determination helped her achieve her goals.",
+                "word": "determination"
+            },
+            "zh": {
+                "sentence": "她的決心幫助她達成了目標。",
+                "sentence_pinyin": "ta de jue xin bang zhu ta da cheng le mu biao",
+                "word": "決心",
+                "word_pinyin": "jue xin"
+            },
+            "th": {
+                "sentence": "ความมุ่งมั่นของเธอช่วยให้เธอบรรลุเป้าหมาย",
+                "word": "ความมุ่งมั่น"
+            }
+        }
+    },
+    {
+        "word": "deliver",
+        "zh": "傳遞；交付",
+        "zh_pinyin": "chuan di; jiao fu",
+        "th": "ส่งมอบ",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "The courier will deliver the package tomorrow.",
+                "word": "deliver"
+            },
+            "zh": {
+                "sentence": "快遞明天會把包裹送來。",
+                "sentence_pinyin": "kuai di ming tian hui ba bao guo song lai",
+                "word": "交付",
+                "word_pinyin": "jiao fu"
+            },
+            "th": {
+                "sentence": "พนักงานส่งของจะนำพัสดุมาส่งพรุ่งนี้",
+                "word": "ส่งมอบ"
+            }
+        }
+    },
+    {
+        "word": "practice",
+        "zh": "練習；實踐",
+        "zh_pinyin": "lian xi; shi jian",
+        "th": "ฝึกฝน",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "You need to practice speaking every day.",
+                "word": "practice"
+            },
+            "zh": {
+                "sentence": "你需要每天練習說話。",
+                "sentence_pinyin": "ni xu yao mei tian lian xi shuo hua",
+                "word": "練習",
+                "word_pinyin": "lian xi"
+            },
+            "th": {
+                "sentence": "คุณต้องฝึกพูดทุกวัน",
+                "word": "ฝึกฝน"
+            }
+        }
+    },
+    {
+        "word": "honestly",
+        "zh": "老實說；坦白地",
+        "zh_pinyin": "lao shi shuo; tan bai de",
+        "th": "พูดตามตรง",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "Honestly, I didn’t expect that result.",
+                "word": "honestly"
+            },
+            "zh": {
+                "sentence": "老實說，我沒有預料到這個結果。",
+                "sentence_pinyin": "lao shi shuo wo mei you yu liao dao zhe ge jie guo",
+                "word": "老實說",
+                "word_pinyin": "lao shi shuo"
+            },
+            "th": {
+                "sentence": "พูดตามตรง ฉันไม่คิดว่าจะเป็นแบบนั้น",
+                "word": "พูดตามตรง"
+            }
+        }
+    },
+    {
+        "word": "past few days",
+        "zh": "過去幾天",
+        "zh_pinyin": "guo qu ji tian",
+        "th": "ไม่กี่วันที่ผ่านมา",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I’ve been very busy these past few days.",
+                "word": "past few days"
+            },
+            "zh": {
+                "sentence": "這幾天我一直很忙。",
+                "sentence_pinyin": "zhe ji tian wo yi zhi hen mang",
+                "word": "過去幾天",
+                "word_pinyin": "guo qu ji tian"
+            },
+            "th": {
+                "sentence": "ไม่กี่วันที่ผ่านมา ฉันยุ่งมาก",
+                "word": "ไม่กี่วันที่ผ่านมา"
+            }
+        }
+    },
+    {
+        "word": "secret",
+        "zh": "秘密",
+        "zh_pinyin": "mi mi",
+        "th": "ความลับ",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "Can you keep a secret?",
+                "word": "secret"
+            },
+            "zh": {
+                "sentence": "你能保守秘密嗎？",
+                "sentence_pinyin": "ni neng bao shou mi mi ma",
+                "word": "秘密",
+                "word_pinyin": "mi mi"
+            },
+            "th": {
+                "sentence": "คุณเก็บความลับได้ไหม",
+                "word": "ความลับ"
+            }
+        }
+    },
+    {
+        "word": "make up my mind",
+        "zh": "下定決心；做出決定",
+        "zh_pinyin": "xia ding jue xin; zuo chu jue ding",
+        "th": "ตัดสินใจแน่วแน่",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "I finally made up my mind to change jobs.",
+                "word": "make up my mind"
+            },
+            "zh": {
+                "sentence": "我終於下定決心換工作。",
+                "sentence_pinyin": "wo zhong yu xia ding jue xin huan gong zuo",
+                "word": "下定決心",
+                "word_pinyin": "xia ding jue xin"
+            },
+            "th": {
+                "sentence": "ในที่สุดฉันก็ตัดสินใจแน่วแน่ที่จะเปลี่ยนงาน",
+                "word": "ตัดสินใจแน่วแน่"
+            }
+        }
     }
 ]
