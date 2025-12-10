@@ -2647,5 +2647,167 @@
                 "word": "ตัดสินใจแน่วแน่"
             }
         }
+    },
+
+    {
+        "word": "expect",
+        "zh": "期待；預期",
+        "zh_pinyin": "qi dai; yu qi",
+        "th": "คาดหวัง",
+        "type": "v.",
+        "examples": {
+            "en": {
+                "sentence": "I didn’t expect things to turn out this way.",
+                "word": "expect"
+            },
+            "zh": {
+                "sentence": "我沒有預期事情會變成這個樣子。",
+                "sentence_pinyin": "wo mei you yu qi shi qing hui bian cheng zhe ge yang zi",
+                "word": "預期",
+                "word_pinyin": "yu qi"
+            },
+            "th": {
+                "sentence": "ฉันไม่คาดหวังเลยว่าจะกลายเป็นแบบนี้",
+                "word": "คาดหวัง"
+            }
+        }
+    },
+    {
+        "word": "mindset",
+        "zh": "心態；思維模式",
+        "zh_pinyin": "xin tai; si wei mo shi",
+        "th": "ทัศนคติ; วิธีคิด",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "A positive mindset helps you face difficulties.",
+                "word": "mindset"
+            },
+            "zh": {
+                "sentence": "正面的心態能幫助你面對困難。",
+                "sentence_pinyin": "zheng mian de xin tai neng bang zhu ni mian dui kun nan",
+                "word": "心態",
+                "word_pinyin": "xin tai"
+            },
+            "th": {
+                "sentence": "ทัศนคติเชิงบวกช่วยให้คุณเผชิญกับความยากลำบากได้ดีขึ้น",
+                "word": "ทัศนคติ"
+            }
+        }
+    },
+    {
+        "word": "contrast",
+        "zh": "對比；差異",
+        "zh_pinyin": "dui bi; cha yi",
+        "th": "ความแตกต่าง",
+        "type": "n.",
+        "examples": {
+            "en": {
+                "sentence": "The contrast between their personalities is obvious.",
+                "word": "contrast"
+            },
+            "zh": {
+                "sentence": "他們個性之間的差異非常明顯。",
+                "sentence_pinyin": "ta men ge xing zhi jian de cha yi fei chang ming xian",
+                "word": "差異",
+                "word_pinyin": "cha yi"
+            },
+            "th": {
+                "sentence": "ความแตกต่างระหว่างบุคลิกของทั้งสองคนชัดเจนมาก",
+                "word": "ความแตกต่าง"
+            }
+        }
+    },
+    {
+        "word": "longed for",
+        "zh": "渴望已久的；嚮往的",
+        "zh_pinyin": "ke wang yi jiu de; xiang wang de",
+        "th": "ที่โหยหา; ที่รอคอยมานาน",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "She finally found the peace she had longed for.",
+                "word": "longed for"
+            },
+            "zh": {
+                "sentence": "她終於找到了自己渴望已久的平靜。",
+                "sentence_pinyin": "ta zhong yu zhao dao le zi ji ke wang yi jiu de ping jing",
+                "word": "渴望已久的",
+                "word_pinyin": "ke wang yi jiu de"
+            },
+            "th": {
+                "sentence": "ในที่สุดเธอก็พบความสงบที่เธอรอคอยมานาน",
+                "word": "ที่รอคอยมานาน"
+            }
+        }
+    },
+    {
+        "word": "office politics",
+        "zh": "辦公室政治；職場鬥爭",
+        "zh_pinyin": "ban gong shi zheng zhi; zhi chang dou zheng",
+        "th": "การเมืองในที่ทำงาน",
+        "type": "phr.",
+        "examples": {
+            "en": {
+                "sentence": "He hates dealing with office politics.",
+                "word": "office politics"
+            },
+            "zh": {
+                "sentence": "他討厭應付辦公室政治。",
+                "sentence_pinyin": "ta tao yan ying fu ban gong shi zheng zhi",
+                "word": "辦公室政治",
+                "word_pinyin": "ban gong shi zheng zhi"
+            },
+            "th": {
+                "sentence": "เขาเกลียดการต้องมายุ่งกับการเมืองในที่ทำงาน",
+                "word": "การเมืองในที่ทำงาน"
+            }
+        }
+    },
+    {
+        "word": "regardless",
+        "zh": "不管；無論如何",
+        "zh_pinyin": "bu guan; wu lun ru he",
+        "th": "ไม่ว่าอย่างไร",
+        "type": "adv.",
+        "examples": {
+            "en": {
+                "sentence": "I support you regardless of the outcome.",
+                "word": "regardless"
+            },
+            "zh": {
+                "sentence": "不管結果如何，我都支持你。",
+                "sentence_pinyin": "bu guan jie guo ru he wo dou zhi chi ni",
+                "word": "不管",
+                "word_pinyin": "bu guan"
+            },
+            "th": {
+                "sentence": "ไม่ว่าผลจะเป็นอย่างไร ฉันก็สนับสนุนคุณ",
+                "word": "ไม่ว่าอย่างไร"
+            }
+        }
+    },
+    {
+        "word": "speechless",
+        "zh": "說不出話的；無言的",
+        "zh_pinyin": "shuo bu chu hua de; wu yan de",
+        "th": "พูดไม่ออก; ทำอะไรไม่ถูก",
+        "type": "adj.",
+        "examples": {
+            "en": {
+                "sentence": "I was completely speechless after hearing what happened.",
+                "word": "speechless"
+            },
+            "zh": {
+                "sentence": "聽完發生的事情之後，我整個人都無言了。",
+                "sentence_pinyin": "ting wan fa sheng de shi qing zhi hou wo zheng ge ren dou wu yan le",
+                "word": "無言的",
+                "word_pinyin": "wu yan de"
+            },
+            "th": {
+                "sentence": "หลังจากได้ยินเรื่องที่เกิดขึ้น ฉันถึงกับพูดไม่ออก",
+                "word": "พูดไม่ออก"
+            }
+        }
     }
 ]
